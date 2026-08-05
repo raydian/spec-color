@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>展示视觉配色指导规范 · 宣传手册 / 宣传PPT / 宣传视频</title>
+<style>
+  :root{
+    --bg:#f4f3ef; --panel:#ffffff; --ink:#2b2b2b; --ink-soft:#6b6b6b;
+    --line:#e3e0d8; --accent:#D12920; --accent2:#4994C4;
+    --font:"Noto Sans SC","Source Han Sans SC","PingFang SC","Microsoft YaHei",sans-serif;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font);line-height:1.7;}
+  a{color:var(--accent2);text-decoration:none}
+  .wrap{max-width:1080px;margin:0 auto;padding:40px 24px 96px;}
+  header.top{border-bottom:3px solid var(--ink);padding-bottom:18px;margin-bottom:34px;}
+  header.top h1{font-size:30px;letter-spacing:2px;margin:0 0 6px;}
+  header.top .sub{color:var(--ink-soft);font-size:14px;letter-spacing:1px;}
+  .tag{display:inline-block;font-size:12px;border:1px solid var(--line);border-radius:999px;padding:2px 10px;color:var(--ink-soft);margin-right:6px;}
+
+  nav.toc{display:flex;flex-wrap:wrap;gap:8px;margin:22px 0 8px;}
+  nav.toc a{font-size:13px;border:1px solid var(--line);background:#fff;border-radius:7px;padding:6px 12px;color:var(--ink);}
+  nav.toc a:hover{border-color:var(--accent);color:var(--accent);}
+
+  section{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:26px 28px;margin:22px 0;box-shadow:0 1px 2px rgba(0,0,0,.03);}
+  section h2{font-size:21px;margin:0 0 4px;letter-spacing:1px;display:flex;align-items:center;gap:10px;}
+  section h2 .n{display:inline-flex;width:30px;height:30px;align-items:center;justify-content:center;background:var(--ink);color:#fff;border-radius:8px;font-size:14px;}
+  section h3{font-size:16px;margin:22px 0 8px;color:var(--ink);}
+  section p,section li{font-size:14.5px;color:#3a3a3a;}
+  .muted{color:var(--ink-soft);font-size:13px;}
+  .rule{border-left:4px solid var(--accent);background:#fbf6f4;padding:10px 16px;border-radius:0 8px 8px 0;margin:14px 0;font-size:14px;}
+  .rule.blue{border-color:var(--accent2);background:#f3f8fb;}
+
+  /* 60-30-10 */
+  .ratio{display:flex;height:120px;border-radius:10px;overflow:hidden;margin:14px 0;border:1px solid var(--line);}
+  .ratio div{display:flex;align-items:flex-end;justify-content:center;color:#fff;font-size:13px;padding-bottom:10px;font-weight:600;text-shadow:0 1px 2px rgba(0,0,0,.3);}
+  .ratio .p{background:#D12920;flex:6;}
+  .ratio .s{background:#9E8C6B;flex:3;}
+  .ratio .a{background:#FFF799;flex:1;color:#343333;text-shadow:none;}
+
+  /* harmony grid */
+  .harm{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin-top:12px;}
+  .harm .card{border:1px solid var(--line);border-radius:10px;overflow:hidden;}
+  .harm .sw{display:flex;height:64px;}
+  .harm .sw i{flex:1;}
+  .harm .meta{padding:8px 10px;font-size:12.5px;}
+  .harm .meta b{font-size:13.5px;}
+
+  /* tabs */
+  .tabs{display:flex;gap:8px;flex-wrap:wrap;margin:8px 0 16px;}
+  .tabs button{font-family:inherit;font-size:14px;border:1px solid var(--line);background:#fff;border-radius:8px;padding:8px 16px;cursor:pointer;color:var(--ink);}
+  .tabs button.on{background:var(--ink);color:#fff;border-color:var(--ink);}
+  .pane{display:none;}
+  .pane.on{display:block;}
+
+  table.spec{width:100%;border-collapse:collapse;margin:10px 0;font-size:13.5px;}
+  table.spec th,table.spec td{border:1px solid var(--line);padding:9px 11px;text-align:left;vertical-align:top;}
+  table.spec th{background:#f7f6f2;font-weight:600;}
+  table.spec td code{background:#f0eee8;padding:1px 5px;border-radius:4px;font-size:12.5px;}
+
+  /* templates */
+  .tpls{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px;margin-top:14px;}
+  .tpl{border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#fff;}
+  .tpl .head{padding:12px 14px;font-weight:700;font-size:15px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:baseline;}
+  .tpl .head small{font-weight:400;color:var(--ink-soft);font-size:12px;}
+  .tpl .preview{height:96px;display:flex;align-items:center;justify-content:center;font-weight:600;letter-spacing:1px;position:relative;}
+  .tpl .rows{padding:10px 14px;}
+  .tpl .row{display:flex;align-items:center;gap:8px;font-size:12.5px;margin:5px 0;}
+  .tpl .row .dot{width:16px;height:16px;border-radius:4px;border:1px solid rgba(0,0,0,.12);flex:0 0 auto;}
+  .tpl .row .role{width:48px;color:var(--ink-soft);}
+  .tpl .row .nm{flex:1;}
+  .tpl .row .hx{font-family:ui-monospace,Menlo,monospace;color:var(--ink-soft);}
+  .tpl .contrast{font-size:12px;padding:8px 14px;border-top:1px solid var(--line);background:#faf9f6;}
+  .tpl .contrast .pass{color:#1a7a3a;font-weight:600;}
+  .tpl .contrast .warn{color:#b8860b;font-weight:600;}
+
+  /* converter */
+  .conv{display:flex;gap:14px;flex-wrap:wrap;align-items:flex-end;margin:10px 0;}
+  .conv label{font-size:12.5px;color:var(--ink-soft);display:block;margin-bottom:4px;}
+  .conv input{font-family:inherit;font-size:14px;padding:7px 9px;border:1px solid var(--line);border-radius:8px;width:120px;}
+  .conv .out{font-family:ui-monospace,Menlo,monospace;font-size:14px;background:#f0eee8;padding:9px 12px;border-radius:8px;}
+
+  .dont{list-style:none;padding:0;margin:10px 0;}
+  .dont li{padding:9px 12px 9px 38px;position:relative;border:1px solid var(--line);border-radius:8px;margin:8px 0;font-size:14px;}
+  .dont li::before{content:"✕";position:absolute;left:12px;top:9px;color:var(--accent);font-weight:700;}
+  .do{list-style:none;padding:0;margin:10px 0;}
+  .do li{padding:9px 12px 9px 38px;position:relative;border:1px solid var(--line);border-radius:8px;margin:8px 0;font-size:14px;}
+  .do li::before{content:"✓";position:absolute;left:12px;top:9px;color:#1a7a3a;font-weight:700;}
+
+  footer{margin-top:40px;padding-top:18px;border-top:1px solid var(--line);color:var(--ink-soft);font-size:12.5px;}
+  .src{font-size:12.5px;color:var(--ink-soft);margin-top:6px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="top">
+    <h1>展示视觉配色指导规范</h1>
+    <div class="sub">适用物料：宣传手册（印刷）· 宣传 PPT（屏幕/投影）· 宣传视频（动态影像）</div>
+    <div style="margin-top:10px">
+      <span class="tag">基础：中国传统色 · 节气色谱（384 色 / 24 节气 × 16 色）</span>
+      <span class="tag">版本 v1.0</span>
+      <span class="tag">2026-08-04</span>
+    </div>
+    <nav class="toc">
+      <a href="#s1">一、色彩角色体系</a>
+      <a href="#s2">二、五大和谐关系</a>
+      <a href="#s3">三、分媒介规范</a>
+      <a href="#s4">四、对比度与可读性</a>
+      <a href="#s5">五、即用模板</a>
+      <a href="#s6">六、禁忌与建议</a>
+    </nav>
+  </header>
+
+  <section id="s1">
+    <h2><span class="n">1</span>色彩角色体系（60-30-10）</h2>
+    <p>任何一页/一帧画面，先把颜色按"角色"分配，再谈好看。一套视觉里只允许 <b>1 个主色</b>，避免品牌漂移。</p>
+    <div class="ratio">
+      <div class="p">主色 60%</div>
+      <div class="s">辅色 30%</div>
+      <div class="a">强调 10%</div>
+    </div>
+    <table class="spec">
+      <tr><th>角色</th><th>占比</th><th>职责</th><th>禁用</th></tr>
+      <tr><td><b>主色 Primary</b></td><td>≈60%</td><td>品牌识别、封面/首屏大面积铺底、核心色块</td><td>不可超过 1 个主色</td></tr>
+      <tr><td><b>辅色 Secondary</b></td><td>≈30%</td><td>内容分区、图表、次级强调、同屏过渡</td><td>不与主色抢面积</td></tr>
+      <tr><td><b>强调色 Accent</b></td><td>≈10%</td><td>CTA 按钮、关键数据、点睛撞色</td><td>不可贪多，单点使用</td></tr>
+      <tr><td><b>中性层 Neutral</b></td><td>按需</td><td>文字、背景、分隔线（黑/白/灰 + 纸色）</td><td>避免"灰底灰字"</td></tr>
+    </table>
+    <div class="rule">顺序铁律：<b>先定主色 → 再选辅色 → 最后点强调</b>。强调色必须与主色有足够对比（见第四节），否则"点睛"会变成"糊点"。</div>
+  </section>
+
+  <section id="s2">
+    <h2><span class="n">2</span>五大和谐关系</h2>
+    <p class="muted">取自本色谱每条颜色的 <code>pairings</code> 结构。配色不确定时，按以下五种关系之一组织，基本不会翻车。</p>
+    <div class="harm" id="harm"></div>
+    <div class="rule blue">建议：品牌长期物料优先 <b>同色系深浅</b> 或 <b>中性平衡</b>（稳）；促销活动可用 <b>互补色 / 三角色</b>（提神），但强调色面积严守 10%。</div>
+  </section>
+
+  <section id="s3">
+    <h2><span class="n">3</span>分媒介规范</h2>
+    <div class="tabs">
+      <button class="on" data-pane="print">宣传手册（印刷）</button>
+      <button data-pane="ppt">宣传 PPT（屏幕/投影）</button>
+      <button data-pane="video">宣传视频（动态影像）</button>
+    </div>
+
+    <div class="pane on" id="print">
+      <h3>印刷品核心约束</h3>
+      <table class="spec">
+        <tr><th>维度</th><th>规范</th></tr>
+        <tr><td>色彩模式</td><td>交付 <code>CMYK</code>，<b>不要</b>直接给屏幕 RGB。RGB 直转 CMYK 普遍偏暗、偏灰，必须打样校准。</td></tr>
+        <tr><td>品牌主色</td><td>建议定 <b>专色 / Pantone</b>，保证不同批次、不同纸张下一致；四色叠印难复现高饱和红金。</td></tr>
+        <tr><td>出血与边距</td><td>出血 <code>3mm</code>；关键文字/Logo 距裁切边 <b>≥5mm</b>，避免裁掉。</td></tr>
+        <tr><td>纸张影响</td><td>铜版纸显色艳、胶版纸偏灰、特种纸吸墨深——同一 RGB 跨纸差异大，<b>每种纸都要打样</b>。</td></tr>
+        <tr><td>字号下限</td><td>正文 ≥ <code>8pt</code>；反白小字 ≥ <code>9pt</code>；极细宋体屏幕好看但印刷易断笔。</td></tr>
+        <tr><td>叠印</td><td>避免大面积高饱和色叠印；深色块叠印易"脏"。黑字用单色黑或叠印黑需明确标注。</td></tr>
+      </table>
+      <h3>RGB → CMYK 速算（交付印刷前核对）</h3>
+      <div class="conv">
+        <div><label>主色 HEX</label><input id="rgbIn" value="#D12920"></div>
+        <div class="out" id="cmykOut">—</div>
+      </div>
+      <p class="muted">说明：此为基于 sRGB 的近似换算，仅供沟通参考；最终以印刷厂 ICC 特性文件为准。</p>
+    </div>
+
+    <div class="pane" id="ppt">
+      <h3>屏幕 / 投影核心约束</h3>
+      <table class="spec">
+        <tr><th>维度</th><th>规范</th></tr>
+        <tr><td>色彩模式</td><td>用 <code>sRGB</code>。投影仪亮度低、对比衰减，<b>提高明度差</b>比提高饱和度更有效。</td></tr>
+        <tr><td>背景策略</td><td>二选一：<b>浅底深字</b> 或 <b>深底浅字</b>；严禁灰底灰字、低对比渐变上的白字。</td></tr>
+        <tr><td>投影对策</td><td>主色饱和度下调 5–10% 提对比；关键文字加 <code>描边/阴影</code>；远程会议场景默认降饱和。</td></tr>
+        <tr><td>图表配色</td><td>离散类别：主色 + 邻近辅色 + 强调；<b>避免红绿同屏</b>（红绿色盲）。顺序数据：用单色明度梯度。</td></tr>
+        <tr><td>字体</td><td>标题 ≥ <code>28pt</code>，正文 ≥ <code>18pt</code>；中文用思源/苹方等黑体，禁用衬线小字。</td></tr>
+        <tr><td>一致性</td><td>母版锁定主色与中性层；每页主色不变，仅换辅色分区。</td></tr>
+      </table>
+    </div>
+
+    <div class="pane" id="video">
+      <h3>动态影像核心约束</h3>
+      <table class="spec">
+        <tr><th>维度</th><th>规范</th></tr>
+        <tr><td>色彩空间</td><td>导出 <code>sRGB / Rec.709</code>；HDR 物料单独定标，不与 SDR 混剪。</td></tr>
+        <tr><td>安全区</td><td>文字/关键信息置于中心 <b>90% 安全框</b>，避开黑边与平台裁切（尤其竖屏 9:16）。</td></tr>
+        <tr><td>字幕</td><td><code>半透明黑底 #000000AA + 白字 #FFFFFF + 1–2px 描边</code>；<b>勿用纯色大字无描边</b>，易被复杂背景吃掉。</td></tr>
+        <tr><td>动态对比</td><td>运动画面降低主色饱和、提高关键元素对比；闪烁频率 <code>&lt; 3Hz</code>，避免光敏风险。</td></tr>
+        <tr><td>调色一致</td><td>全片统一 <b>LUT / 色温</b>；品牌主色在片头、片尾、角标固化出现。</td></tr>
+        <tr><td>跨比例</td><td>横屏 16:9 与竖屏 9:16 各出一版，<b>主色占比保持一致</b>，不简单裁切。</td></tr>
+      </table>
+    </div>
+  </section>
+
+  <section id="s4">
+    <h2><span class="n">4</span>对比度与可读性</h2>
+    <ul>
+      <li><b>WCAG 阈值</b>：正文文字对比度 ≥ <code>4.5:1</code>；大字号（≥18pt 或 ≥14pt 粗体）≥ <code>3:1</code>。</li>
+      <li><b>本色谱已内嵌对比提示</b>：每条颜色的 <code>fontColor</code> 字段即"该底色上的推荐文字色"（多为 <code>#343333</code> 深字），可直接采用。</li>
+      <li><b>色盲友好</b>：不单独用红/绿传达信息；叠加 形状 + 文字 + 位置 三重编码。</li>
+      <li><b>视频额外</b>：字幕与画面主体也需满足 3:1，靠描边/底栏保证。</li>
+    </ul>
+    <div class="rule">把"文字色"当成设计决策，而不是默认黑或默认白。下方模板实时计算背景—文字对比度，绿色=达标。</div>
+  </section>
+
+  <section id="s5">
+    <h2><span class="n">5</span>即用模板（取自本色谱，含角色与实时对比度）</h2>
+    <p class="muted">六套可直接套用的配色。每张卡显示主/辅/点/背/文五色与"背景—文字"对比度，绿色 ✔ 表示满足 WCAG 正文标准。</p>
+    <div class="tpls" id="tpls"></div>
+  </section>
+
+  <section id="s6">
+    <h2><span class="n">6</span>禁忌与建议</h2>
+    <h3>绝对禁忌</h3>
+    <ul class="dont">
+      <li>一套视觉出现 <b>超过 1 个主色</b>（品牌漂移）。</li>
+      <li><b>灰底灰字 / 低对比</b>：投影、印刷、视频字幕都先测对比度。</li>
+      <li>印刷物料 <b>直接交付 RGB</b>，或把屏幕色当印刷色用。</li>
+      <li>视频使用 <b>无描边纯色大字幕</b>。</li>
+      <li>每页/每帧 <b>更换主色</b>，观众无法建立品牌记忆。</li>
+      <li>高饱和等大色块 <b>长时间静止停留</b>，造成视觉疲劳。</li>
+    </ul>
+    <h3>推荐做法</h3>
+    <ul class="do">
+      <li>先用中性层搭骨架，再上主色，最后点强调。</li>
+      <li>不确定配色时，从"五大和谐关系"中任选一种组织。</li>
+      <li>印刷打样、PPT 投屏预演、视频多端预览，三者都做一遍。</li>
+      <li>建立一份品牌色卡（主/辅/点 + 对应 CMYK/RGB/HEX），全员共享。</li>
+    </ul>
+  </section>
+
+  <footer>
+    <div>本规范基于项目内 <code>china_color.json</code>（中国传统色 · 节气色谱，384 色）建立，模板色值均取自该数据集。</div>
+    <div class="src">数据字段：name / category(节气) / hex / fontColor(推荐文字色) / description / usage / pairings(同色系·邻近·互补·三角·中性)。配套参考：china_colors.md、china_colors_ref.html。</div>
+  </footer>
+
+</div>
+
+<script>
+/* ---------- 数据：五大和谐关系示例（取自色谱 pairings 思路） ---------- */
+const harm = [
+  {t:"同色系深浅", d:"不换色即得层次，最安全、最显高级", c:["#fff799","#FEDC5E","#9E8C6B","#595333"]},
+  {t:"邻近色", d:"色相相邻，过渡柔和自然", c:["#88ABDA","#8BA3C7","#4994C4","#AED0EE"]},
+  {t:"互补色", d:"冷暖相生、彼此提神（谨慎用量）", c:["#D12920","#757CBB","#343333"]},
+  {t:"三角色", d:"三色均衡活泼，适合节庆多色", c:["#EA5514","#4994C4","#788A6F"]},
+  {t:"中性平衡", d:"用中性色压阵收口、稳住全局", c:["#D5E3D4","#343333","#EFEFEF"]}
+];
+const harmBox=document.getElementById('harm');
+harm.forEach(h=>{
+  const sw=h.c.map(x=>`<i style="background:${x}"></i>`).join('');
+  harmBox.insertAdjacentHTML('beforeend',
+    `<div class="card"><div class="sw">${sw}</div><div class="meta"><b>${h.t}</b><br>${h.d}</div></div>`);
+});
+
+/* ---------- 即用模板（6 套，取自本色谱） ---------- */
+const tpls=[
+  {name:"国风·朱金",scene:"文化/品牌发布手册封面",p:["#D12920","银硃"],s:["#9E8C6B","黄琮"],a:["#FFF799","黄白游"],b:["#F5F2E9","凝脂"],t:["#343333","墨"]},
+  {name:"青绿·山水",scene:"环保/科技/文旅 PPT",p:["#4994C4","孔雀藍"],s:["#788A6F","雀梅"],a:["#C3D94E","青粲"],b:["#D5E3D4","卵色"],t:["#343333","墨"]},
+  {name:"春和·粉黛",scene:"美妆/母婴/生活方式",p:["#F9D3E3","盈盈"],s:["#D5D1AE","筠霧"],a:["#E2A2AC","彤管"],b:["#EBEEE8","皦玉"],t:["#343333","墨"]},
+  {name:"秋韵·赭石",scene:"金融/地产/酒类",p:["#CB523E","赩熾"],s:["#D4BF89","石蜜"],a:["#954024","赤靈"],b:["#EFEFEF","縞羽"],t:["#343333","墨"]},
+  {name:"水墨·月白",scene:"极简/医疗/教育",p:["#88ABDA","竊藍"],s:["#7D929F","秋藍"],a:["#8BA3C7","东方既白"],b:["#D4E5EF","月白"],t:["#343333","墨"]},
+  {name:"华彩·三元",scene:"大促/活动/短视频",p:["#EA5514","黄丹"],s:["#BA5B49","赤緹"],a:["#FEDC5E","黄栗留"],b:["#31322C","京元"],t:["#F5F2E9","素白"]}
+];
+
+/* WCAG 对比度计算 */
+function lum(hex){
+  const h=hex.replace('#','');
+  const r=parseInt(h.substr(0,2),16)/255,
+        g=parseInt(h.substr(2,2),16)/255,
+        b=parseInt(h.substr(4,2),16)/255;
+  const f=c=>c<=0.03928?c/12.92:Math.pow((c+0.055)/1.055,2.4);
+  return 0.2126*f(r)+0.7152*f(g)+0.0722*f(b);
+}
+function ratio(a,b){
+  const L1=lum(a),L2=lum(b);
+  const hi=Math.max(L1,L2),lo=Math.min(L1,L2);
+  return (hi+0.05)/(lo+0.05);
+}
+
+const tplBox=document.getElementById('tpls');
+tpls.forEach(tp=>{
+  const [bHex,bNm]=tp.b, [tHex,tNm]=tp.t;
+  const r=ratio(bHex,tHex);
+  const ok=r>=4.5;
+  const row=(role,col)=>`<div class="row"><span class="dot" style="background:${col[0]}"></span>
+      <span class="role">${role}</span><span class="nm">${col[1]}</span><span class="hx">${col[0].toUpperCase()}</span></div>`;
+  tplBox.insertAdjacentHTML('beforeend',
+   `<div class="tpl">
+      <div class="head">${tp.name} <small>${tp.scene}</small></div>
+      <div class="preview" style="background:${bHex};color:${tHex}">${tp.name}</div>
+      <div class="rows">
+        ${row('主色',tp.p)}${row('辅色',tp.s)}${row('强调',tp.a)}${row('背景',tp.b)}${row('文字',tp.t)}
+      </div>
+      <div class="contrast">背景—文字对比度：
+        <b class="${ok?'pass':'warn'}">${r.toFixed(2)}:1 ${ok?'✔ 达标(≥4.5)':'⚠ 仅达大字标准(≥3)'}</b>
+      </div>
+    </div>`);
+});
+
+/* ---------- RGB→CMYK ---------- */
+function rgb2cmyk(hex){
+  const h=hex.replace('#','');
+  let r=parseInt(h.substr(0,2),16)/255,
+      g=parseInt(h.substr(2,2),16)/255,
+      b=parseInt(h.substr(4,2),16)/255;
+  const k=1-Math.max(r,g,b);
+  if(k>=1) return [0,0,0,100];
+  const c=(1-r-k)/(1-k), m=(1-g-k)/(1-k), y=(1-b-k)/(1-k);
+  return [c,m,y,k].map(v=>Math.round(v*100));
+}
+const rgbIn=document.getElementById('rgbIn'), cmykOut=document.getElementById('cmykOut');
+function upd(){const v=rgbIn.value.trim();if(/^#?[0-9a-fA-F]{6}$/.test(v)){const h=v[0]==='#'?v:'#'+v;const[c,m,y,k]=rgb2cmyk(h);cmykOut.textContent=`C${c} M${m} Y${y} K${k}`;}}
+rgbIn.addEventListener('input',upd);upd();
+
+/* ---------- 分媒介 tabs ---------- */
+document.querySelectorAll('.tabs button').forEach(btn=>{
+  btn.addEventListener('click',()=>{
+    document.querySelectorAll('.tabs button').forEach(b=>b.classList.remove('on'));
+    document.querySelectorAll('.pane').forEach(p=>p.classList.remove('on'));
+    btn.classList.add('on');
+    document.getElementById(btn.dataset.pane).classList.add('on');
+  });
+});
+</script>
+</body>
+</html>

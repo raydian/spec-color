@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>金融 · 投资 · 科技 配色模板（PPT / 宣传手册）</title>
+<style>
+  :root{
+    --bg:#f4f3ef; --panel:#ffffff; --ink:#2b2b2b; --ink-soft:#6b6b6b;
+    --line:#e3e0d8; --accent:#D12920; --accent2:#4994C4;
+    --font:"Noto Sans SC","Source Han Sans SC","PingFang SC","Microsoft YaHei",sans-serif;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font);line-height:1.7;}
+  .wrap{max-width:1120px;margin:0 auto;padding:40px 24px 96px;}
+  header.top{border-bottom:3px solid var(--ink);padding-bottom:18px;margin-bottom:26px;}
+  header.top h1{font-size:28px;letter-spacing:2px;margin:0 0 6px;}
+  header.top .sub{color:var(--ink-soft);font-size:14px;letter-spacing:1px;}
+  .tag{display:inline-block;font-size:12px;border:1px solid var(--line);border-radius:999px;padding:2px 10px;color:var(--ink-soft);margin-right:6px;margin-top:8px;}
+
+  .bar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;margin:8px 0 22px;}
+  .tabs{display:flex;gap:8px;flex-wrap:wrap;}
+  .tabs button{font-family:inherit;font-size:14px;border:1px solid var(--line);background:#fff;border-radius:8px;padding:8px 16px;cursor:pointer;color:var(--ink);}
+  .tabs button.on{background:var(--ink);color:#fff;border-color:var(--ink);}
+  .toggle{display:flex;align-items:center;gap:8px;font-size:13.5px;color:var(--ink-soft);cursor:pointer;user-select:none;}
+  .toggle input{width:16px;height:16px;}
+
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:18px;}
+  .card{border:1px solid var(--line);border-radius:14px;overflow:hidden;background:#fff;box-shadow:0 1px 2px rgba(0,0,0,.03);}
+  .card .head{padding:14px 16px;border-bottom:1px solid var(--line);}
+  .card .head .nm{font-size:17px;font-weight:700;letter-spacing:1px;}
+  .card .head .meta{font-size:12.5px;color:var(--ink-soft);margin-top:3px;}
+  .sector{display:inline-block;font-size:11px;padding:1px 8px;border-radius:999px;margin-left:8px;vertical-align:middle;}
+  .s-fin{background:#fbe9e7;color:#B5392B;}
+  .s-inv{background:#e7f1e9;color:#2f6b3f;}
+  .s-tec{background:#e7eef7;color:#2b5d8a;}
+  .s-gold{background:#fbf3da;color:#9a7b2e;}
+
+  .previews{display:flex;gap:10px;padding:14px 16px;}
+  .pv{flex:1;border-radius:10px;padding:14px;min-height:96px;display:flex;flex-direction:column;justify-content:space-between;border:1px solid var(--line);}
+  .pv .lab{font-size:11px;opacity:.8;letter-spacing:1px;}
+  .pv .ttl{font-size:17px;font-weight:700;letter-spacing:1px;margin-top:6px;}
+  .pv .chip{align-self:flex-start;font-size:11px;padding:3px 9px;border-radius:6px;margin-top:8px;font-weight:600;}
+
+  .roles{padding:4px 16px 0;}
+  .role{display:flex;align-items:center;gap:9px;font-size:12.5px;margin:7px 0;}
+  .role .dot{width:18px;height:18px;border-radius:5px;border:1px solid rgba(0,0,0,.12);flex:0 0 auto;}
+  .role .rk{width:42px;color:var(--ink-soft);}
+  .role .nm{flex:1;}
+  .role .hx{font-family:ui-monospace,Menlo,monospace;color:var(--ink-soft);font-size:11.5px;}
+  .role .cm{font-family:ui-monospace,Menlo,monospace;color:#9a7b2e;font-size:11px;display:none;}
+
+  .foot{padding:10px 16px 14px;border-top:1px solid var(--line);background:#faf9f6;font-size:12px;}
+  .foot .c{margin:2px 0;}
+  .foot .pass{color:#1a7a3a;font-weight:600;}
+  .foot .warn{color:#b8860b;font-weight:600;}
+  .note{font-size:11.5px;color:var(--ink-soft);margin-top:6px;}
+
+  footer{margin-top:36px;padding-top:16px;border-top:1px solid var(--line);color:var(--ink-soft);font-size:12.5px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="top">
+    <h1>金融 · 投资 · 科技 配色模板</h1>
+    <div class="sub">面向 PPT 与宣传手册的即用配色 · 每套含「亮屏/手册版」与「暗屏 PPT 版」双预览</div>
+    <div>
+      <span class="tag">数据源：中国传统色 · 节气色谱</span>
+      <span class="tag">v1.0</span>
+      <span class="tag">2026-08-04</span>
+    </div>
+  </header>
+
+  <div class="bar">
+    <div class="tabs">
+      <button class="on" data-sec="all">全部</button>
+      <button data-sec="fin">金融</button>
+      <button data-sec="inv">投资</button>
+      <button data-sec="tec">科技</button>
+      <button data-sec="gold">金色字体</button>
+    </div>
+    <label class="toggle"><input type="checkbox" id="cmykToggle"> 显示 CMYK 印刷值（手册打样用）</label>
+  </div>
+
+  <div class="grid" id="grid"></div>
+
+  <footer>
+    色值全部取自项目 <code>china_color.json</code>。暗屏版背景统一使用「京元 #31322C」作安全深底，文字用「素白 #F5F2E9」；如需更深品牌底，可在色谱中选取更深同族色。CMYK 为 sRGB 近似换算，印刷以 ICC 特性文件为准。
+  </footer>
+
+</div>
+
+<script>
+/* 模板数据：主/辅/点 为品牌色（两版通用）；亮版(手册/亮屏PPT) 与 暗版(暗屏PPT) 仅背景/文字互换 */
+const T = [
+  // 金融
+  {sec:"fin",secn:"金融",name:"藏青金",mood:"商业银行 / 财富管理 · 稳重可信",
+   p:["#4994C4","孔雀藍"],s:["#9E8C6B","黄琮"],a:["#D12920","银硃"],
+   lb:["#F5F2E9","凝脂"],lt:["#343333","墨"],db:["#31322C","京元"],dt:["#F5F2E9","素白"]},
+  {sec:"fin",secn:"金融",name:"墨金",mood:"私人银行 / 高端资管 · 低调奢华",
+   p:["#31322C","京元"],s:["#9E8C6B","黄琮"],a:["#FFF799","黄白游"],
+   lb:["#EFEFEF","縞羽"],lt:["#343333","墨"],db:["#31322C","京元"],dt:["#F5F2E9","素白"]},
+  {sec:"fin",secn:"金融",name:"朱印",mood:"国资 / 券商品牌 · 中国红烙印",
+   p:["#D12920","银硃"],s:["#9E8C6B","黄琮"],a:["#FEDC5E","黄栗留"],
+   lb:["#F5F2E9","凝脂"],lt:["#343333","墨"],db:["#31322C","京元"],dt:["#F5F2E9","素白"]},
+  // 投资
+  {sec:"inv",secn:"投资",name:"青蓝增长",mood:"公私募基金 / 权益投资 · 增长向上",
+   p:["#4994C4","孔雀藍"],s:["#788A6F","雀梅"],a:["#C3D94E","青粲"],
+   lb:["#D5E3D4","卵色"],lt:["#343333","墨"],db:["#31322C","京元"],dt:["#F5F2E9","素白"]},
+  {sec:"inv",secn:"投资",name:"赭金资管",mood:"固收 / 家族办公室 · 温润厚重",
+   p:["#CB523E","赩熾"],s:["#D4BF89","石蜜"],a:["#954024","赤靈"],
+   lb:["#EFEFEF","縞羽"],lt:["#343333","墨"],db:["#31322C","京元"],dt:["#F5F2E9","素白"]},
+  {sec:"inv",secn:"投资",name:"松烟墨",mood:"ESG / 长期价值 · 自然沉静",
+   p:["#788A6F","雀梅"],s:["#7D929F","秋藍"],a:["#FEDC5E","黄栗留"],
+   lb:["#EBEEE8","皦玉"],lt:["#343333","墨"],db:["#31322C","京元"],dt:["#F5F2E9","素白"]},
+  // 科技
+  {sec:"tec",secn:"科技",name:"深空蓝",mood:"AI / 云计算 · 暗屏科技感（建议暗屏PPT）",
+   p:["#7D929F","秋藍"],s:["#88ABDA","竊藍"],a:["#8BA3C7","东方既白"],
+   lb:["#EFEFEF","縞羽"],lt:["#343333","墨"],db:["#31322C","京元"],dt:["#F5F2E9","素白"]},
+  {sec:"tec",secn:"科技",name:"紫电",mood:"生物医药 / 硬科技 · 未来感",
+   p:["#A6559D","紫蒲"],s:["#88ABDA","竊藍"],a:["#AED0EE","碧落"],
+   lb:["#EFEFEF","縞羽"],lt:["#343333","墨"],db:["#31322C","京元"],dt:["#F5F2E9","素白"]},
+  {sec:"tec",secn:"科技",name:"月白极简",mood:"SaaS / 消费科技 · 清爽现代",
+   p:["#88ABDA","竊藍"],s:["#D4E5EF","月白"],a:["#4994C4","孔雀藍"],
+   lb:["#FFFFFF","素白底"],lt:["#343333","墨"],db:["#31322C","京元"],dt:["#F5F2E9","素白"]},
+  // 金色字体（深底金字，高端/奢华向）
+  {sec:"gold",secn:"金色字体",name:"黑金·典藏",mood:"私人银行 / 高端财富 · 黑底金字",
+   p:["#9E8C6B","黄琮"],s:["#D12920","银硃"],a:["#FFF799","黄白游"],
+   lb:["#31322C","京元"],lt:["#D4BF89","石蜜·哑光金"],db:["#31322C","京元"],dt:["#FFF799","黄白游·亮金"]},
+  {sec:"gold",secn:"金色字体",name:"金棕·资管",mood:"固收 / 家族办公室 · 深棕金",
+   p:["#954024","赤靈"],s:["#D4BF89","石蜜"],a:["#FEDC5E","黄栗留"],
+   lb:["#31322C","京元"],lt:["#D4BF89","石蜜·哑光金"],db:["#31322C","京元"],dt:["#FEDC5E","黄栗留·亮金"]},
+  {sec:"gold",secn:"金色字体",name:"金蓝·科技",mood:"AI / 云计算 · 深空金字",
+   p:["#4994C4","孔雀藍"],s:["#7D929F","秋藍"],a:["#FEDC5E","黄栗留"],
+   lb:["#31322C","京元"],lt:["#D4BF89","石蜜·哑光金"],db:["#31322C","京元"],dt:["#FEDC5E","黄栗留·亮金"]},
+  {sec:"gold",secn:"金色字体",name:"赤金·国风",mood:"国资 / 券商 · 中国红金字",
+   p:["#D12920","银硃"],s:["#9E8C6B","黄琮"],a:["#FFF799","黄白游"],
+   lb:["#31322C","京元"],lt:["#D4BF89","石蜜·哑光金"],db:["#31322C","京元"],dt:["#FFF799","黄白游·亮金"]}
+];
+
+function lum(hex){const h=hex.replace('#','');const r=parseInt(h.substr(0,2),16)/255,g=parseInt(h.substr(2,2),16)/255,b=parseInt(h.substr(4,2),16)/255;const f=c=>c<=0.03928?c/12.92:Math.pow((c+0.055)/1.055,2.4);return 0.2126*f(r)+0.7152*f(g)+0.0722*f(b);}
+function ratio(a,b){const L1=lum(a),L2=lum(b),hi=Math.max(L1,L2),lo=Math.min(L1,L2);return (hi+0.05)/(lo+0.05);}
+function cmyk(hex){const h=hex.replace('#','');let r=parseInt(h.substr(0,2),16)/255,g=parseInt(h.substr(2,2),16)/255,b=parseInt(h.substr(4,2),16)/255;const k=1-Math.max(r,g,b);if(k>=1)return[0,0,0,100];const c=(1-r-k)/(1-k),m=(1-g-k)/(1-k),y=(1-b-k)/(1-k);return[c,m,y,k].map(v=>Math.round(v*100));}
+function cmykStr(hex){return "C"+cmyk(hex).join(" M");}
+
+const grid=document.getElementById('grid');
+function render(sec){
+  grid.innerHTML='';
+  T.filter(t=>sec==='all'||t.sec===sec).forEach(t=>{
+    const isGold = t.sec==='gold';
+    const rl=(rk,col)=>`<div class="role"><span class="dot" style="background:${col[0]}"></span>
+      <span class="rk">${rk}</span><span class="nm">${col[1]}</span>
+      <span class="hx">${col[0].toUpperCase()}</span>
+      <span class="cm">${cmykStr(col[0])}</span></div>`;
+    const rl1=ratio(t.lb[0],t.lt[0]), rd1=ratio(t.db[0],t.dt[0]);
+    const badgel=rl1>=4.5?'pass':'warn', badged=rd1>=4.5?'pass':'warn';
+    const lab1 = isGold ? '哑光金版' : '亮屏 / 手册版';
+    const lab2 = isGold ? '亮金版' : '暗屏 PPT 版';
+    const chipTxt1 = isGold ? '#31322C' : t.lt[0];
+    const chipTxt2 = isGold ? '#31322C' : t.dt[0];
+    const rolesHtml = isGold
+      ? `${rl('主色',t.p)}${rl('辅色',t.s)}${rl('强调',t.a)}${rl('深底',t.lb)}${rl('金字·哑光',t.lt)}${rl('金字·亮',t.dt)}`
+      : `${rl('主色',t.p)}${rl('辅色',t.s)}${rl('强调',t.a)}${rl('亮底',t.lb)}${rl('亮字',t.lt)}${rl('暗底',t.db)}${rl('暗字',t.dt)}`;
+    const foot1 = isGold ? '哑光金 深底—金字' : '亮版 背景—文字';
+    const foot2 = isGold ? '亮金 深底—金字' : '暗版 背景—文字';
+    const note = isGold
+      ? '金色字体需配深底（黑/墨）。哑光金（石蜜）适合正文大字，亮金（黄白游/黄栗留）适合标题与点睛；印刷建议定金专色打样。'
+      : '手册：浅底深字印刷版（注意 CMYK 打样）；PPT：暗屏版建议用于科技/发布会，亮屏版用于会议室投影。';
+    const card=document.createElement('div');
+    card.className='card';
+    card.innerHTML=`
+      <div class="head">
+        <div class="nm">${t.name}<span class="sector s-${t.sec}">${t.secn}</span></div>
+        <div class="meta">${t.mood}</div>
+      </div>
+      <div class="previews">
+        <div class="pv" style="background:${t.lb[0]};color:${t.lt[0]}">
+          <div><div class="lab">${lab1}</div><div class="ttl">${t.name}</div></div>
+          <div class="chip" style="background:${t.a[0]};color:${chipTxt1}">强调 ${t.a[1]}</div>
+        </div>
+        <div class="pv" style="background:${t.db[0]};color:${t.dt[0]}">
+          <div><div class="lab">${lab2}</div><div class="ttl">${t.name}</div></div>
+          <div class="chip" style="background:${t.a[0]};color:${chipTxt2}">强调 ${t.a[1]}</div>
+        </div>
+      </div>
+      <div class="roles">
+        ${rolesHtml}
+      </div>
+      <div class="foot">
+        <div class="c">${foot1}：<b class="${badgel}">${rl1.toFixed(2)}:1 ${rl1>=4.5?'✔ 达标':'⚠ 仅大字'}</b></div>
+        <div class="c">${foot2}：<b class="${badged}">${rd1.toFixed(2)}:1 ${rd1>=4.5?'✔ 达标':'⚠ 仅大字'}</b></div>
+        <div class="note">${note}</div>
+      </div>`;
+    grid.appendChild(card);
+  });
+}
+render('all');
+
+document.querySelectorAll('.tabs button').forEach(b=>{
+  b.addEventListener('click',()=>{
+    document.querySelectorAll('.tabs button').forEach(x=>x.classList.remove('on'));
+    b.classList.add('on');
+    render(b.dataset.sec);
+    syncCmyk();
+  });
+});
+const toggle=document.getElementById('cmykToggle');
+function syncCmyk(){document.querySelectorAll('.cm').forEach(e=>e.style.display=toggle.checked?'inline':'none');}
+toggle.addEventListener('change',syncCmyk);
+</script>
+</body>
+</html>

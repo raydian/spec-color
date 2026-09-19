@@ -1,0 +1,7368 @@
+{
+ "meta": {
+  "total": 384,
+  "source": "china_colors_ref.html（24 节气 × 16 色）",
+  "method": "sRGB → OKLab/OKLCH，按 彩度(C) + 色相(h) + 明度(L) 三级判定，不使用色名匹配",
+  "dimensions": {
+   "family": {
+    "list": [
+     "红色系",
+     "橙色系",
+     "黄色系",
+     "绿色系",
+     "青色系",
+     "蓝色系",
+     "紫色系",
+     "粉色系",
+     "棕褐色系",
+     "米杏色系",
+     "白灰色系",
+     "黑墨色系"
+    ],
+    "desc": {
+     "红色系": "正红、朱红、绛红、暗红",
+     "橙色系": "橙、橘、朱橙",
+     "黄色系": "黄、金黄、鹅黄",
+     "绿色系": "草绿、翠绿、墨绿",
+     "青色系": "青绿、蓝绿、碧、铜青",
+     "蓝色系": "天蓝、湖蓝、靛蓝、深蓝",
+     "紫色系": "紫、蓝紫、深紫",
+     "粉色系": "桃粉、樱粉、胭脂粉",
+     "棕褐色系": "棕、褐、赭、茶",
+     "米杏色系": "米、杏、沙、暖灰黄",
+     "白灰色系": "白、银灰、冷灰、暖灰",
+     "黑墨色系": "黑、墨、玄、近黑"
+    }
+   },
+   "lightness": {
+    "list": [
+     "浅色",
+     "中色",
+     "深色"
+    ],
+    "rule": {
+     "浅色": "L* ≥ 0.78",
+     "中色": "0.50 ≤ L* < 0.78",
+     "深色": "L* < 0.50"
+    }
+   },
+   "saturation": {
+    "list": [
+     "柔和",
+     "标准",
+     "鲜艳"
+    ],
+    "rule": {
+     "柔和": "彩度比 < 0.42",
+     "标准": "0.42 ≤ 彩度比 < 0.75",
+     "鲜艳": "彩度比 ≥ 0.75"
+    }
+   }
+  },
+  "fixed_values": {
+   "地籟": "#DFCEB4",
+   "山礬": "#F5F3F2",
+   "玉頩": "#E6E5E3",
+   "二目魚": "#DFE0D9",
+   "明月璫": "#D4D3CA"
+  }
+ },
+ "colors": [
+  {
+   "name": "楊妃",
+   "category": "驚蟄",
+   "hex": "#F091A0",
+   "rgb": [
+    240,
+    145,
+    160
+   ],
+   "family": "红色系",
+   "lightness": "中色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.7593,
+    "C": 0.1158,
+    "h": 10.0
+   },
+   "chromaRatio": 0.783
+  },
+  {
+   "name": "小紅",
+   "category": "小雪",
+   "hex": "#E67762",
+   "rgb": [
+    230,
+    119,
+    98
+   ],
+   "family": "红色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.6917,
+    "C": 0.142,
+    "h": 32.0
+   },
+   "chromaRatio": 0.712
+  },
+  {
+   "name": "蘇梅",
+   "category": "雨水",
+   "hex": "#DD7694",
+   "rgb": [
+    221,
+    118,
+    148
+   ],
+   "family": "红色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.6898,
+    "C": 0.1315,
+    "h": 2.6
+   },
+   "chromaRatio": 0.611
+  },
+  {
+   "name": "長春",
+   "category": "驚蟄",
+   "hex": "#DC6B82",
+   "rgb": [
+    220,
+    107,
+    130
+   ],
+   "family": "红色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.6671,
+    "C": 0.1425,
+    "h": 8.9
+   },
+   "chromaRatio": 0.623
+  },
+  {
+   "name": "渥赭",
+   "category": "小滿",
+   "hex": "#DD6B7B",
+   "rgb": [
+    221,
+    107,
+    123
+   ],
+   "family": "红色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.6667,
+    "C": 0.1428,
+    "h": 13.0
+   },
+   "chromaRatio": 0.634
+  },
+  {
+   "name": "岱赭",
+   "category": "小雪",
+   "hex": "#DD6B4F",
+   "rgb": [
+    221,
+    107,
+    79
+   ],
+   "family": "红色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.658,
+    "C": 0.1492,
+    "h": 35.0
+   },
+   "chromaRatio": 0.646
+  },
+  {
+   "name": "紅麵",
+   "category": "冬至",
+   "hex": "#CD7372",
+   "rgb": [
+    205,
+    115,
+    114
+   ],
+   "family": "红色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.6554,
+    "C": 0.1135,
+    "h": 21.3
+   },
+   "chromaRatio": 0.491
+  },
+  {
+   "name": "藕絲褐",
+   "category": "立冬",
+   "hex": "#A88787",
+   "rgb": [
+    168,
+    135,
+    135
+   ],
+   "family": "红色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.6543,
+    "C": 0.0405,
+    "h": 18.2
+   },
+   "chromaRatio": 0.173
+  },
+  {
+   "name": "紫梅",
+   "category": "冬至",
+   "hex": "#BB7A8C",
+   "rgb": [
+    187,
+    122,
+    140
+   ],
+   "family": "红色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.6521,
+    "C": 0.084,
+    "h": 1.7
+   },
+   "chromaRatio": 0.33
+  },
+  {
+   "name": "絳紗",
+   "category": "大暑",
+   "hex": "#B27777",
+   "rgb": [
+    178,
+    119,
+    119
+   ],
+   "family": "红色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.6302,
+    "C": 0.0745,
+    "h": 19.4
+   },
+   "chromaRatio": 0.295
+  },
+  {
+   "name": "檎丹",
+   "category": "立夏",
+   "hex": "#E94829",
+   "rgb": [
+    233,
+    72,
+    41
+   ],
+   "family": "红色系",
+   "lightness": "中色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.6279,
+    "C": 0.2026,
+    "h": 32.9
+   },
+   "chromaRatio": 0.872
+  },
+  {
+   "name": "琅玕紫",
+   "category": "清明",
+   "hex": "#CB5C83",
+   "rgb": [
+    203,
+    92,
+    131
+   ],
+   "family": "红色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.6226,
+    "C": 0.1462,
+    "h": 0.1
+   },
+   "chromaRatio": 0.579
+  },
+  {
+   "name": "檀色",
+   "category": "春分",
+   "hex": "#B26D5D",
+   "rgb": [
+    178,
+    109,
+    93
+   ],
+   "family": "红色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.6059,
+    "C": 0.092,
+    "h": 33.8
+   },
+   "chromaRatio": 0.42
+  },
+  {
+   "name": "美人祭",
+   "category": "大雪",
+   "hex": "#C35C6A",
+   "rgb": [
+    195,
+    92,
+    106
+   ],
+   "family": "红色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.6042,
+    "C": 0.1321,
+    "h": 13.4
+   },
+   "chromaRatio": 0.547
+  },
+  {
+   "name": "牙緋",
+   "category": "驚蟄",
+   "hex": "#C35C5D",
+   "rgb": [
+    195,
+    92,
+    93
+   ],
+   "family": "红色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.6011,
+    "C": 0.1324,
+    "h": 21.3
+   },
+   "chromaRatio": 0.547
+  },
+  {
+   "name": "赩熾",
+   "category": "夏至",
+   "hex": "#CB523E",
+   "rgb": [
+    203,
+    82,
+    62
+   ],
+   "family": "红色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.5936,
+    "C": 0.1582,
+    "h": 31.6
+   },
+   "chromaRatio": 0.695
+  },
+  {
+   "name": "鶴頂紅",
+   "category": "小雪",
+   "hex": "#D24735",
+   "rgb": [
+    210,
+    71,
+    53
+   ],
+   "family": "红色系",
+   "lightness": "中色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.59,
+    "C": 0.1782,
+    "h": 30.5
+   },
+   "chromaRatio": 0.763
+  },
+  {
+   "name": "唇脂",
+   "category": "小滿",
+   "hex": "#C25160",
+   "rgb": [
+    194,
+    81,
+    96
+   ],
+   "family": "红色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.5848,
+    "C": 0.1451,
+    "h": 14.7
+   },
+   "chromaRatio": 0.62
+  },
+  {
+   "name": "赤緹",
+   "category": "驚蟄",
+   "hex": "#BA5B49",
+   "rgb": [
+    186,
+    91,
+    73
+   ],
+   "family": "红色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.5828,
+    "C": 0.1267,
+    "h": 32.2
+   },
+   "chromaRatio": 0.576
+  },
+  {
+   "name": "丹罽",
+   "category": "立夏",
+   "hex": "#E60012",
+   "rgb": [
+    230,
+    0,
+    18
+   ],
+   "family": "红色系",
+   "lightness": "中色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.5814,
+    "C": 0.2375,
+    "h": 27.9
+   },
+   "chromaRatio": 1.0
+  },
+  {
+   "name": "葡萄褐",
+   "category": "立冬",
+   "hex": "#9E696D",
+   "rgb": [
+    158,
+    105,
+    109
+   ],
+   "family": "红色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.5779,
+    "C": 0.0684,
+    "h": 14.5
+   },
+   "chromaRatio": 0.296
+  },
+  {
+   "name": "洛神珠",
+   "category": "春分",
+   "hex": "#D23918",
+   "rgb": [
+    210,
+    57,
+    24
+   ],
+   "family": "红色系",
+   "lightness": "中色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.5729,
+    "C": 0.1946,
+    "h": 33.3
+   },
+   "chromaRatio": 0.928
+  },
+  {
+   "name": "棠梨",
+   "category": "霜降",
+   "hex": "#B15A43",
+   "rgb": [
+    177,
+    90,
+    67
+   ],
+   "family": "红色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.5673,
+    "C": 0.119,
+    "h": 35.8
+   },
+   "chromaRatio": 0.609
+  },
+  {
+   "name": "纁黃",
+   "category": "立春",
+   "hex": "#ba5140",
+   "rgb": [
+    186,
+    81,
+    64
+   ],
+   "family": "红色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.5663,
+    "C": 0.1396,
+    "h": 31.2
+   },
+   "chromaRatio": 0.635
+  },
+  {
+   "name": "茹藘",
+   "category": "大暑",
+   "hex": "#A35F65",
+   "rgb": [
+    163,
+    95,
+    101
+   ],
+   "family": "红色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.5639,
+    "C": 0.0888,
+    "h": 14.6
+   },
+   "chromaRatio": 0.394
+  },
+  {
+   "name": "銀硃",
+   "category": "霜降",
+   "hex": "#D12920",
+   "rgb": [
+    209,
+    41,
+    32
+   ],
+   "family": "红色系",
+   "lightness": "中色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.5586,
+    "C": 0.2041,
+    "h": 28.9
+   },
+   "chromaRatio": 0.891
+  },
+  {
+   "name": "蚩尤旗",
+   "category": "冬至",
+   "hex": "#A85858",
+   "rgb": [
+    168,
+    88,
+    88
+   ],
+   "family": "红色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.5555,
+    "C": 0.1051,
+    "h": 21.0
+   },
+   "chromaRatio": 0.47
+  },
+  {
+   "name": "胭脂紫",
+   "category": "小雪",
+   "hex": "#B0436F",
+   "rgb": [
+    176,
+    67,
+    111
+   ],
+   "family": "红色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.5434,
+    "C": 0.1483,
+    "h": 358.2
+   },
+   "chromaRatio": 0.67
+  },
+  {
+   "name": "鞓紅",
+   "category": "大雪",
+   "hex": "#B04552",
+   "rgb": [
+    176,
+    69,
+    82
+   ],
+   "family": "红色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.5378,
+    "C": 0.1397,
+    "h": 15.8
+   },
+   "chromaRatio": 0.649
+  },
+  {
+   "name": "朱殷",
+   "category": "小雪",
+   "hex": "#B93A26",
+   "rgb": [
+    185,
+    58,
+    38
+   ],
+   "family": "红色系",
+   "lightness": "中色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.5319,
+    "C": 0.1667,
+    "h": 31.7
+   },
+   "chromaRatio": 0.819
+  },
+  {
+   "name": "珊瑚赫",
+   "category": "立春",
+   "hex": "#c12c1f",
+   "rgb": [
+    193,
+    44,
+    31
+   ],
+   "family": "红色系",
+   "lightness": "中色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.5318,
+    "C": 0.1873,
+    "h": 29.7
+   },
+   "chromaRatio": 0.868
+  },
+  {
+   "name": "丹雘",
+   "category": "春分",
+   "hex": "#C8161D",
+   "rgb": [
+    200,
+    22,
+    29
+   ],
+   "family": "红色系",
+   "lightness": "中色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.5309,
+    "C": 0.2065,
+    "h": 26.9
+   },
+   "chromaRatio": 0.954
+  },
+  {
+   "name": "紫礦",
+   "category": "冬至",
+   "hex": "#9E4E56",
+   "rgb": [
+    158,
+    78,
+    86
+   ],
+   "family": "红色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.5247,
+    "C": 0.1064,
+    "h": 15.2
+   },
+   "chromaRatio": 0.507
+  },
+  {
+   "name": "石榴裙",
+   "category": "夏至",
+   "hex": "#B13B2E",
+   "rgb": [
+    177,
+    59,
+    46
+   ],
+   "family": "红色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.5204,
+    "C": 0.1558,
+    "h": 29.6
+   },
+   "chromaRatio": 0.737
+  },
+  {
+   "name": "魏紅",
+   "category": "清明",
+   "hex": "#A73766",
+   "rgb": [
+    167,
+    55,
+    102
+   ],
+   "family": "红色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.512,
+    "C": 0.1528,
+    "h": 358.1
+   },
+   "chromaRatio": 0.733
+  },
+  {
+   "name": "朱草",
+   "category": "驚蟄",
+   "hex": "#A64036",
+   "rgb": [
+    166,
+    64,
+    54
+   ],
+   "family": "红色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.5097,
+    "C": 0.1369,
+    "h": 28.4
+   },
+   "chromaRatio": 0.656
+  },
+  {
+   "name": "朱孔陽",
+   "category": "小滿",
+   "hex": "#B81A35",
+   "rgb": [
+    184,
+    26,
+    53
+   ],
+   "family": "红色系",
+   "lightness": "中色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.5055,
+    "C": 0.1887,
+    "h": 19.7
+   },
+   "chromaRatio": 0.93
+  },
+  {
+   "name": "紫誥",
+   "category": "大寒",
+   "hex": "#76555D",
+   "rgb": [
+    118,
+    85,
+    93
+   ],
+   "family": "红色系",
+   "lightness": "深色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.4869,
+    "C": 0.0453,
+    "h": 2.9
+   },
+   "chromaRatio": 0.23
+  },
+  {
+   "name": "胭脂蟲",
+   "category": "霜降",
+   "hex": "#AB1D22",
+   "rgb": [
+    171,
+    29,
+    34
+   ],
+   "family": "红色系",
+   "lightness": "深色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.4801,
+    "C": 0.1764,
+    "h": 25.7
+   },
+   "chromaRatio": 0.904
+  },
+  {
+   "name": "水華朱",
+   "category": "春分",
+   "hex": "#A72126",
+   "rgb": [
+    167,
+    33,
+    38
+   ],
+   "family": "红色系",
+   "lightness": "深色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.476,
+    "C": 0.1694,
+    "h": 25.0
+   },
+   "chromaRatio": 0.877
+  },
+  {
+   "name": "玄天",
+   "category": "雨水",
+   "hex": "#6B5458",
+   "rgb": [
+    107,
+    84,
+    88
+   ],
+   "family": "红色系",
+   "lightness": "深色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.4707,
+    "C": 0.0311,
+    "h": 6.6
+   },
+   "chromaRatio": 0.165
+  },
+  {
+   "name": "魏紫",
+   "category": "清明",
+   "hex": "#903754",
+   "rgb": [
+    144,
+    55,
+    84
+   ],
+   "family": "红色系",
+   "lightness": "深色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.4691,
+    "C": 0.1234,
+    "h": 2.8
+   },
+   "chromaRatio": 0.652
+  },
+  {
+   "name": "蘇方",
+   "category": "立冬",
+   "hex": "#81474C",
+   "rgb": [
+    129,
+    71,
+    76
+   ],
+   "family": "红色系",
+   "lightness": "深色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.4691,
+    "C": 0.0794,
+    "h": 15.1
+   },
+   "chromaRatio": 0.423
+  },
+  {
+   "name": "綪茷",
+   "category": "驚蟄",
+   "hex": "#9E2A22",
+   "rgb": [
+    158,
+    42,
+    34
+   ],
+   "family": "红色系",
+   "lightness": "深色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.4669,
+    "C": 0.1535,
+    "h": 28.5
+   },
+   "chromaRatio": 0.803
+  },
+  {
+   "name": "佛赤",
+   "category": "秋分",
+   "hex": "#8F3D2C",
+   "rgb": [
+    143,
+    61,
+    44
+   ],
+   "family": "红色系",
+   "lightness": "深色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.4668,
+    "C": 0.1155,
+    "h": 33.3
+   },
+   "chromaRatio": 0.675
+  },
+  {
+   "name": "朱湛",
+   "category": "夏至",
+   "hex": "#95302E",
+   "rgb": [
+    149,
+    48,
+    46
+   ],
+   "family": "红色系",
+   "lightness": "深色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.4594,
+    "C": 0.1361,
+    "h": 25.2
+   },
+   "chromaRatio": 0.73
+  },
+  {
+   "name": "霽紅",
+   "category": "冬至",
+   "hex": "#7C4449",
+   "rgb": [
+    124,
+    68,
+    73
+   ],
+   "family": "红色系",
+   "lightness": "深色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.456,
+    "C": 0.0772,
+    "h": 14.9
+   },
+   "chromaRatio": 0.423
+  },
+  {
+   "name": "椒褐",
+   "category": "小雪",
+   "hex": "#72453A",
+   "rgb": [
+    114,
+    69,
+    58
+   ],
+   "family": "红色系",
+   "lightness": "深色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.4402,
+    "C": 0.0652,
+    "h": 34.5
+   },
+   "chromaRatio": 0.416
+  },
+  {
+   "name": "丹秫",
+   "category": "小暑",
+   "hex": "#873424",
+   "rgb": [
+    135,
+    52,
+    36
+   ],
+   "family": "红色系",
+   "lightness": "深色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.4392,
+    "C": 0.1176,
+    "h": 32.8
+   },
+   "chromaRatio": 0.72
+  },
+  {
+   "name": "朱櫻",
+   "category": "霜降",
+   "hex": "#8F1D22",
+   "rgb": [
+    143,
+    29,
+    34
+   ],
+   "family": "红色系",
+   "lightness": "深色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.427,
+    "C": 0.1491,
+    "h": 24.3
+   },
+   "chromaRatio": 0.862
+  },
+  {
+   "name": "大繎",
+   "category": "夏至",
+   "hex": "#822327",
+   "rgb": [
+    130,
+    35,
+    39
+   ],
+   "family": "红色系",
+   "lightness": "深色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.4093,
+    "C": 0.1294,
+    "h": 22.8
+   },
+   "chromaRatio": 0.782
+  },
+  {
+   "name": "蜜褐",
+   "category": "秋分",
+   "hex": "#683632",
+   "rgb": [
+    104,
+    54,
+    50
+   ],
+   "family": "红色系",
+   "lightness": "深色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.3957,
+    "C": 0.0721,
+    "h": 25.6
+   },
+   "chromaRatio": 0.448
+  },
+  {
+   "name": "順聖",
+   "category": "驚蟄",
+   "hex": "#7C191E",
+   "rgb": [
+    124,
+    25,
+    30
+   ],
+   "family": "红色系",
+   "lightness": "深色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.3865,
+    "C": 0.1333,
+    "h": 23.7
+   },
+   "chromaRatio": 0.852
+  },
+  {
+   "name": "福色",
+   "category": "立冬",
+   "hex": "#662B2F",
+   "rgb": [
+    102,
+    43,
+    47
+   ],
+   "family": "红色系",
+   "lightness": "深色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.3728,
+    "C": 0.0851,
+    "h": 18.0
+   },
+   "chromaRatio": 0.569
+  },
+  {
+   "name": "術蘭",
+   "category": "小暑",
+   "hex": "#662B1F",
+   "rgb": [
+    102,
+    43,
+    31
+   ],
+   "family": "红色系",
+   "lightness": "深色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.3694,
+    "C": 0.0882,
+    "h": 33.1
+   },
+   "chromaRatio": 0.646
+  },
+  {
+   "name": "爵頭",
+   "category": "霜降",
+   "hex": "#631216",
+   "rgb": [
+    99,
+    18,
+    22
+   ],
+   "family": "红色系",
+   "lightness": "深色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.3294,
+    "C": 0.1136,
+    "h": 23.8
+   },
+   "chromaRatio": 0.851
+  },
+  {
+   "name": "麒麟竭",
+   "category": "小暑",
+   "hex": "#4C1E1A",
+   "rgb": [
+    76,
+    30,
+    26
+   ],
+   "family": "红色系",
+   "lightness": "深色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.3021,
+    "C": 0.0708,
+    "h": 27.1
+   },
+   "chromaRatio": 0.573
+  },
+  {
+   "name": "朱顏酡",
+   "category": "立夏",
+   "hex": "#F29A76",
+   "rgb": [
+    242,
+    154,
+    118
+   ],
+   "family": "橙色系",
+   "lightness": "中色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.7675,
+    "C": 0.117,
+    "h": 42.9
+   },
+   "chromaRatio": 0.808
+  },
+  {
+   "name": "赬霞",
+   "category": "小暑",
+   "hex": "#F18F60",
+   "rgb": [
+    241,
+    143,
+    96
+   ],
+   "family": "橙色系",
+   "lightness": "中色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.7441,
+    "C": 0.1343,
+    "h": 45.7
+   },
+   "chromaRatio": 0.81
+  },
+  {
+   "name": "赬尾",
+   "category": "小暑",
+   "hex": "#EF845D",
+   "rgb": [
+    239,
+    132,
+    93
+   ],
+   "family": "橙色系",
+   "lightness": "中色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.7232,
+    "C": 0.1418,
+    "h": 40.5
+   },
+   "chromaRatio": 0.797
+  },
+  {
+   "name": "杏子",
+   "category": "寒露",
+   "hex": "#DA9233",
+   "rgb": [
+    218,
+    146,
+    51
+   ],
+   "family": "橙色系",
+   "lightness": "中色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.7165,
+    "C": 0.1368,
+    "h": 69.2
+   },
+   "chromaRatio": 0.876
+  },
+  {
+   "name": "庫金",
+   "category": "雨水",
+   "hex": "#E18A3B",
+   "rgb": [
+    225,
+    138,
+    59
+   ],
+   "family": "橙色系",
+   "lightness": "中色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.7113,
+    "C": 0.1402,
+    "h": 59.3
+   },
+   "chromaRatio": 0.834
+  },
+  {
+   "name": "縉雲",
+   "category": "立春",
+   "hex": "#ee7959",
+   "rgb": [
+    238,
+    121,
+    89
+   ],
+   "family": "橙色系",
+   "lightness": "中色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.7041,
+    "C": 0.1518,
+    "h": 36.3
+   },
+   "chromaRatio": 0.796
+  },
+  {
+   "name": "紅友",
+   "category": "夏至",
+   "hex": "#D9883D",
+   "rgb": [
+    217,
+    136,
+    61
+   ],
+   "family": "橙色系",
+   "lightness": "中色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.6981,
+    "C": 0.1331,
+    "h": 60.3
+   },
+   "chromaRatio": 0.815
+  },
+  {
+   "name": "鬱金裙",
+   "category": "小滿",
+   "hex": "#D08635",
+   "rgb": [
+    208,
+    134,
+    53
+   ],
+   "family": "橙色系",
+   "lightness": "中色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.6827,
+    "C": 0.1305,
+    "h": 64.4
+   },
+   "chromaRatio": 0.847
+  },
+  {
+   "name": "朱柿",
+   "category": "小暑",
+   "hex": "#ED6D46",
+   "rgb": [
+    237,
+    109,
+    70
+   ],
+   "family": "橙色系",
+   "lightness": "中色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.6826,
+    "C": 0.1676,
+    "h": 37.5
+   },
+   "chromaRatio": 0.796
+  },
+  {
+   "name": "苕榮",
+   "category": "立夏",
+   "hex": "#ED6D3D",
+   "rgb": [
+    237,
+    109,
+    61
+   ],
+   "family": "橙色系",
+   "lightness": "中色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.6816,
+    "C": 0.1703,
+    "h": 40.2
+   },
+   "chromaRatio": 0.798
+  },
+  {
+   "name": "柘黃",
+   "category": "驚蟄",
+   "hex": "#C67915",
+   "rgb": [
+    198,
+    121,
+    21
+   ],
+   "family": "橙色系",
+   "lightness": "中色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.6447,
+    "C": 0.1388,
+    "h": 65.1
+   },
+   "chromaRatio": 0.96
+  },
+  {
+   "name": "黃丹",
+   "category": "春分",
+   "hex": "#EA5514",
+   "rgb": [
+    234,
+    85,
+    20
+   ],
+   "family": "橙色系",
+   "lightness": "中色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.6427,
+    "C": 0.1959,
+    "h": 39.5
+   },
+   "chromaRatio": 0.961
+  },
+  {
+   "name": "媚蝶",
+   "category": "寒露",
+   "hex": "#BC6E37",
+   "rgb": [
+    188,
+    110,
+    55
+   ],
+   "family": "橙色系",
+   "lightness": "中色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.6146,
+    "C": 0.121,
+    "h": 53.4
+   },
+   "chromaRatio": 0.779
+  },
+  {
+   "name": "光明砂",
+   "category": "夏至",
+   "hex": "#CC5D20",
+   "rgb": [
+    204,
+    93,
+    32
+   ],
+   "family": "橙色系",
+   "lightness": "中色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.6075,
+    "C": 0.1574,
+    "h": 45.2
+   },
+   "chromaRatio": 0.908
+  },
+  {
+   "name": "黃流",
+   "category": "小滿",
+   "hex": "#9F6027",
+   "rgb": [
+    159,
+    96,
+    39
+   ],
+   "family": "橙色系",
+   "lightness": "中色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.5493,
+    "C": 0.1082,
+    "h": 59.2
+   },
+   "chromaRatio": 0.833
+  },
+  {
+   "name": "韎韐",
+   "category": "寒露",
+   "hex": "#9F5221",
+   "rgb": [
+    159,
+    82,
+    33
+   ],
+   "family": "橙色系",
+   "lightness": "中色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.5238,
+    "C": 0.1189,
+    "h": 49.6
+   },
+   "chromaRatio": 0.853
+  },
+  {
+   "name": "赤靈",
+   "category": "小暑",
+   "hex": "#954024",
+   "rgb": [
+    149,
+    64,
+    36
+   ],
+   "family": "橙色系",
+   "lightness": "深色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.4798,
+    "C": 0.1219,
+    "h": 38.4
+   },
+   "chromaRatio": 0.782
+  },
+  {
+   "name": "黃白游",
+   "category": "立春",
+   "hex": "#fff799",
+   "rgb": [
+    255,
+    247,
+    153
+   ],
+   "family": "黄色系",
+   "lightness": "浅色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.9622,
+    "C": 0.1157,
+    "h": 104.1
+   },
+   "chromaRatio": 0.999
+  },
+  {
+   "name": "松花",
+   "category": "立春",
+   "hex": "#ffee6f",
+   "rgb": [
+    255,
+    238,
+    111
+   ],
+   "family": "黄色系",
+   "lightness": "浅色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.9386,
+    "C": 0.1478,
+    "h": 101.8
+   },
+   "chromaRatio": 0.999
+  },
+  {
+   "name": "黃栗留",
+   "category": "驚蟄",
+   "hex": "#FEDC5E",
+   "rgb": [
+    254,
+    220,
+    94
+   ],
+   "family": "黄色系",
+   "lightness": "浅色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.9001,
+    "C": 0.1474,
+    "h": 94.1
+   },
+   "chromaRatio": 0.97
+  },
+  {
+   "name": "緗葉",
+   "category": "立春",
+   "hex": "#ecd452",
+   "rgb": [
+    236,
+    212,
+    82
+   ],
+   "family": "黄色系",
+   "lightness": "浅色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.8665,
+    "C": 0.1487,
+    "h": 98.7
+   },
+   "chromaRatio": 0.828
+  },
+  {
+   "name": "嫩鵝黃",
+   "category": "小滿",
+   "hex": "#F2C867",
+   "rgb": [
+    242,
+    200,
+    103
+   ],
+   "family": "黄色系",
+   "lightness": "浅色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.8503,
+    "C": 0.1249,
+    "h": 86.1
+   },
+   "chromaRatio": 0.73
+  },
+  {
+   "name": "梔子",
+   "category": "驚蟄",
+   "hex": "#FAC03D",
+   "rgb": [
+    250,
+    192,
+    61
+   ],
+   "family": "黄色系",
+   "lightness": "浅色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.839,
+    "C": 0.1538,
+    "h": 83.4
+   },
+   "chromaRatio": 0.902
+  },
+  {
+   "name": "薑黃",
+   "category": "立冬",
+   "hex": "#D6C560",
+   "rgb": [
+    214,
+    197,
+    96
+   ],
+   "family": "黄色系",
+   "lightness": "浅色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.8174,
+    "C": 0.1235,
+    "h": 99.9
+   },
+   "chromaRatio": 0.727
+  },
+  {
+   "name": "姚黃",
+   "category": "冬至",
+   "hex": "#D6BC46",
+   "rgb": [
+    214,
+    188,
+    70
+   ],
+   "family": "黄色系",
+   "lightness": "浅色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.7962,
+    "C": 0.1375,
+    "h": 96.6
+   },
+   "chromaRatio": 0.838
+  },
+  {
+   "name": "太一餘糧",
+   "category": "處暑",
+   "hex": "#D5B45C",
+   "rgb": [
+    213,
+    180,
+    92
+   ],
+   "family": "黄色系",
+   "lightness": "浅色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.7812,
+    "C": 0.1139,
+    "h": 89.1
+   },
+   "chromaRatio": 0.713
+  },
+  {
+   "name": "黃河琉璃",
+   "category": "雨水",
+   "hex": "#E5A84B",
+   "rgb": [
+    229,
+    168,
+    75
+   ],
+   "family": "黄色系",
+   "lightness": "中色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.7722,
+    "C": 0.1299,
+    "h": 75.0
+   },
+   "chromaRatio": 0.797
+  },
+  {
+   "name": "鞠衣",
+   "category": "小滿",
+   "hex": "#D3A237",
+   "rgb": [
+    211,
+    162,
+    55
+   ],
+   "family": "黄色系",
+   "lightness": "中色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.7395,
+    "C": 0.1326,
+    "h": 83.0
+   },
+   "chromaRatio": 0.872
+  },
+  {
+   "name": "黃不老",
+   "category": "驚蟄",
+   "hex": "#DB9B34",
+   "rgb": [
+    219,
+    155,
+    52
+   ],
+   "family": "黄色系",
+   "lightness": "中色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.7346,
+    "C": 0.1367,
+    "h": 74.8
+   },
+   "chromaRatio": 0.881
+  },
+  {
+   "name": "秋香",
+   "category": "處暑",
+   "hex": "#BF9C46",
+   "rgb": [
+    191,
+    156,
+    70
+   ],
+   "family": "黄色系",
+   "lightness": "中色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.708,
+    "C": 0.1122,
+    "h": 87.0
+   },
+   "chromaRatio": 0.774
+  },
+  {
+   "name": "蒼黃",
+   "category": "立春",
+   "hex": "#b6a014",
+   "rgb": [
+    182,
+    160,
+    20
+   ],
+   "family": "黄色系",
+   "lightness": "中色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.704,
+    "C": 0.1418,
+    "h": 99.0
+   },
+   "chromaRatio": 0.972
+  },
+  {
+   "name": "蛾黃",
+   "category": "冬至",
+   "hex": "#BE8A2F",
+   "rgb": [
+    190,
+    138,
+    47
+   ],
+   "family": "黄色系",
+   "lightness": "中色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.6686,
+    "C": 0.1216,
+    "h": 77.4
+   },
+   "chromaRatio": 0.87
+  },
+  {
+   "name": "老茯神",
+   "category": "處暑",
+   "hex": "#AA8534",
+   "rgb": [
+    170,
+    133,
+    52
+   ],
+   "family": "黄色系",
+   "lightness": "中色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.6368,
+    "C": 0.1076,
+    "h": 83.9
+   },
+   "chromaRatio": 0.822
+  },
+  {
+   "name": "蔥青",
+   "category": "大暑",
+   "hex": "#EDF1BB",
+   "rgb": [
+    237,
+    241,
+    187
+   ],
+   "family": "绿色系",
+   "lightness": "浅色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.9419,
+    "C": 0.07,
+    "h": 111.2
+   },
+   "chromaRatio": 0.338
+  },
+  {
+   "name": "少艾",
+   "category": "大暑",
+   "hex": "#E3EB98",
+   "rgb": [
+    227,
+    235,
+    152
+   ],
+   "family": "绿色系",
+   "lightness": "浅色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.9152,
+    "C": 0.1055,
+    "h": 113.0
+   },
+   "chromaRatio": 0.517
+  },
+  {
+   "name": "卵色",
+   "category": "秋分",
+   "hex": "#D5E3D4",
+   "rgb": [
+    213,
+    227,
+    212
+   ],
+   "family": "绿色系",
+   "lightness": "浅色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.9011,
+    "C": 0.0251,
+    "h": 143.5
+   },
+   "chromaRatio": 0.127
+  },
+  {
+   "name": "綺錢",
+   "category": "大暑",
+   "hex": "#D8DE8A",
+   "rgb": [
+    216,
+    222,
+    138
+   ],
+   "family": "绿色系",
+   "lightness": "浅色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.8772,
+    "C": 0.1068,
+    "h": 111.9
+   },
+   "chromaRatio": 0.55
+  },
+  {
+   "name": "葭菼",
+   "category": "秋分",
+   "hex": "#CAD7C5",
+   "rgb": [
+    202,
+    215,
+    197
+   ],
+   "family": "绿色系",
+   "lightness": "浅色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.8643,
+    "C": 0.0282,
+    "h": 136.9
+   },
+   "chromaRatio": 0.108
+  },
+  {
+   "name": "餘白",
+   "category": "處暑",
+   "hex": "#C9CFC1",
+   "rgb": [
+    201,
+    207,
+    193
+   ],
+   "family": "绿色系",
+   "lightness": "浅色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.8459,
+    "C": 0.0202,
+    "h": 125.9
+   },
+   "chromaRatio": 0.094
+  },
+  {
+   "name": "歐碧",
+   "category": "雨水",
+   "hex": "#C0D695",
+   "rgb": [
+    192,
+    214,
+    149
+   ],
+   "family": "绿色系",
+   "lightness": "浅色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.8438,
+    "C": 0.0893,
+    "h": 123.5
+   },
+   "chromaRatio": 0.429
+  },
+  {
+   "name": "青粲",
+   "category": "立夏",
+   "hex": "#C3D94E",
+   "rgb": [
+    195,
+    217,
+    78
+   ],
+   "family": "绿色系",
+   "lightness": "浅色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.8428,
+    "C": 0.1631,
+    "h": 117.7
+   },
+   "chromaRatio": 0.833
+  },
+  {
+   "name": "山嵐",
+   "category": "大暑",
+   "hex": "#BED2BB",
+   "rgb": [
+    190,
+    210,
+    187
+   ],
+   "family": "绿色系",
+   "lightness": "浅色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.8423,
+    "C": 0.0382,
+    "h": 141.6
+   },
+   "chromaRatio": 0.136
+  },
+  {
+   "name": "翠樽",
+   "category": "大暑",
+   "hex": "#CDD171",
+   "rgb": [
+    205,
+    209,
+    113
+   ],
+   "family": "绿色系",
+   "lightness": "浅色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.8371,
+    "C": 0.1199,
+    "h": 110.8
+   },
+   "chromaRatio": 0.652
+  },
+  {
+   "name": "麴塵",
+   "category": "立秋",
+   "hex": "#C0D09D",
+   "rgb": [
+    192,
+    208,
+    157
+   ],
+   "family": "绿色系",
+   "lightness": "浅色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.8325,
+    "C": 0.0706,
+    "h": 122.1
+   },
+   "chromaRatio": 0.349
+  },
+  {
+   "name": "冰台",
+   "category": "秋分",
+   "hex": "#BECAB7",
+   "rgb": [
+    190,
+    202,
+    183
+   ],
+   "family": "绿色系",
+   "lightness": "浅色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.8245,
+    "C": 0.0292,
+    "h": 133.8
+   },
+   "chromaRatio": 0.124
+  },
+  {
+   "name": "翠縹",
+   "category": "立夏",
+   "hex": "#B7D332",
+   "rgb": [
+    183,
+    211,
+    50
+   ],
+   "family": "绿色系",
+   "lightness": "浅色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.8186,
+    "C": 0.178,
+    "h": 119.4
+   },
+   "chromaRatio": 0.921
+  },
+  {
+   "name": "凍縹",
+   "category": "清明",
+   "hex": "#BEC2B3",
+   "rgb": [
+    190,
+    194,
+    179
+   ],
+   "family": "绿色系",
+   "lightness": "浅色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.8067,
+    "C": 0.0211,
+    "h": 119.0
+   },
+   "chromaRatio": 0.111
+  },
+  {
+   "name": "草白",
+   "category": "大雪",
+   "hex": "#BFC1A9",
+   "rgb": [
+    191,
+    193,
+    169
+   ],
+   "family": "绿色系",
+   "lightness": "浅色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.8028,
+    "C": 0.0329,
+    "h": 111.0
+   },
+   "chromaRatio": 0.187
+  },
+  {
+   "name": "瓷秘",
+   "category": "芒種",
+   "hex": "#BFC096",
+   "rgb": [
+    191,
+    192,
+    150
+   ],
+   "family": "绿色系",
+   "lightness": "浅色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.7962,
+    "C": 0.0567,
+    "h": 108.8
+   },
+   "chromaRatio": 0.329
+  },
+  {
+   "name": "青古",
+   "category": "秋分",
+   "hex": "#B3BDA9",
+   "rgb": [
+    179,
+    189,
+    169
+   ],
+   "family": "绿色系",
+   "lightness": "浅色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.7849,
+    "C": 0.0299,
+    "h": 128.9
+   },
+   "chromaRatio": 0.144
+  },
+  {
+   "name": "蒼葭",
+   "category": "穀雨",
+   "hex": "#A8BF8F",
+   "rgb": [
+    168,
+    191,
+    143
+   ],
+   "family": "绿色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.7748,
+    "C": 0.0705,
+    "h": 128.8
+   },
+   "chromaRatio": 0.344
+  },
+  {
+   "name": "春辰",
+   "category": "雨水",
+   "hex": "#A9BE7B",
+   "rgb": [
+    169,
+    190,
+    123
+   ],
+   "family": "绿色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.7693,
+    "C": 0.0927,
+    "h": 122.7
+   },
+   "chromaRatio": 0.493
+  },
+  {
+   "name": "鳴珂",
+   "category": "芒種",
+   "hex": "#B3B59C",
+   "rgb": [
+    179,
+    181,
+    156
+   ],
+   "family": "绿色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.7647,
+    "C": 0.0347,
+    "h": 110.9
+   },
+   "chromaRatio": 0.206
+  },
+  {
+   "name": "蘭苕",
+   "category": "處暑",
+   "hex": "#A8B78C",
+   "rgb": [
+    168,
+    183,
+    140
+   ],
+   "family": "绿色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.7565,
+    "C": 0.0615,
+    "h": 123.5
+   },
+   "chromaRatio": 0.33
+  },
+  {
+   "name": "人籟",
+   "category": "立夏",
+   "hex": "#9EBC19",
+   "rgb": [
+    158,
+    188,
+    25
+   ],
+   "family": "绿色系",
+   "lightness": "中色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.7466,
+    "C": 0.1729,
+    "h": 120.7
+   },
+   "chromaRatio": 0.968
+  },
+  {
+   "name": "青玉案",
+   "category": "芒種",
+   "hex": "#A8B092",
+   "rgb": [
+    168,
+    176,
+    146
+   ],
+   "family": "绿色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.7427,
+    "C": 0.0427,
+    "h": 119.6
+   },
+   "chromaRatio": 0.243
+  },
+  {
+   "name": "淥波",
+   "category": "大暑",
+   "hex": "#9BB496",
+   "rgb": [
+    155,
+    180,
+    150
+   ],
+   "family": "绿色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.7426,
+    "C": 0.0505,
+    "h": 140.4
+   },
+   "chromaRatio": 0.209
+  },
+  {
+   "name": "縹碧",
+   "category": "立春",
+   "hex": "#80a492",
+   "rgb": [
+    128,
+    164,
+    146
+   ],
+   "family": "绿色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.6866,
+    "C": 0.0476,
+    "h": 163.2
+   },
+   "chromaRatio": 0.321
+  },
+  {
+   "name": "碧滋",
+   "category": "處暑",
+   "hex": "#90A07D",
+   "rgb": [
+    144,
+    160,
+    125
+   ],
+   "family": "绿色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.6835,
+    "C": 0.053,
+    "h": 127.7
+   },
+   "chromaRatio": 0.297
+  },
+  {
+   "name": "青楸",
+   "category": "大暑",
+   "hex": "#81A380",
+   "rgb": [
+    129,
+    163,
+    128
+   ],
+   "family": "绿色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.6802,
+    "C": 0.0631,
+    "h": 144.1
+   },
+   "chromaRatio": 0.287
+  },
+  {
+   "name": "水龍吟",
+   "category": "立夏",
+   "hex": "#84A729",
+   "rgb": [
+    132,
+    167,
+    41
+   ],
+   "family": "绿色系",
+   "lightness": "中色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.6789,
+    "C": 0.1531,
+    "h": 124.3
+   },
+   "chromaRatio": 0.905
+  },
+  {
+   "name": "翠濤",
+   "category": "寒露",
+   "hex": "#819D8E",
+   "rgb": [
+    129,
+    157,
+    142
+   ],
+   "family": "绿色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.6701,
+    "C": 0.0383,
+    "h": 161.8
+   },
+   "chromaRatio": 0.26
+  },
+  {
+   "name": "碧山",
+   "category": "雨水",
+   "hex": "#779649",
+   "rgb": [
+    119,
+    150,
+    73
+   ],
+   "family": "绿色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.6317,
+    "C": 0.1104,
+    "h": 127.4
+   },
+   "chromaRatio": 0.674
+  },
+  {
+   "name": "風入松",
+   "category": "芒種",
+   "hex": "#868C4E",
+   "rgb": [
+    134,
+    140,
+    78
+   ],
+   "family": "绿色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.6204,
+    "C": 0.0849,
+    "h": 113.4
+   },
+   "chromaRatio": 0.611
+  },
+  {
+   "name": "庭蕪綠",
+   "category": "穀雨",
+   "hex": "#68945C",
+   "rgb": [
+    104,
+    148,
+    92
+   ],
+   "family": "绿色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.6199,
+    "C": 0.0946,
+    "h": 139.1
+   },
+   "chromaRatio": 0.483
+  },
+  {
+   "name": "青梅",
+   "category": "寒露",
+   "hex": "#778A77",
+   "rgb": [
+    119,
+    138,
+    119
+   ],
+   "family": "绿色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.6126,
+    "C": 0.0358,
+    "h": 145.1
+   },
+   "chromaRatio": 0.186
+  },
+  {
+   "name": "雀梅",
+   "category": "大雪",
+   "hex": "#788A6F",
+   "rgb": [
+    120,
+    138,
+    111
+   ],
+   "family": "绿色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.6112,
+    "C": 0.0449,
+    "h": 135.2
+   },
+   "chromaRatio": 0.251
+  },
+  {
+   "name": "菉竹",
+   "category": "大暑",
+   "hex": "#698E6A",
+   "rgb": [
+    105,
+    142,
+    106
+   ],
+   "family": "绿色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.6089,
+    "C": 0.0678,
+    "h": 145.4
+   },
+   "chromaRatio": 0.357
+  },
+  {
+   "name": "石發",
+   "category": "小滿",
+   "hex": "#6A8D52",
+   "rgb": [
+    106,
+    141,
+    82
+   ],
+   "family": "绿色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.602,
+    "C": 0.0934,
+    "h": 133.5
+   },
+   "chromaRatio": 0.544
+  },
+  {
+   "name": "苔古",
+   "category": "清明",
+   "hex": "#79836C",
+   "rgb": [
+    121,
+    131,
+    108
+   ],
+   "family": "绿色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.595,
+    "C": 0.036,
+    "h": 126.6
+   },
+   "chromaRatio": 0.235
+  },
+  {
+   "name": "蔥倩",
+   "category": "處暑",
+   "hex": "#6C8650",
+   "rgb": [
+    108,
+    134,
+    80
+   ],
+   "family": "绿色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.5859,
+    "C": 0.0832,
+    "h": 129.6
+   },
+   "chromaRatio": 0.531
+  },
+  {
+   "name": "千山翠",
+   "category": "白露",
+   "hex": "#6B7D73",
+   "rgb": [
+    107,
+    125,
+    115
+   ],
+   "family": "绿色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.572,
+    "C": 0.0261,
+    "h": 161.2
+   },
+   "chromaRatio": 0.205
+  },
+  {
+   "name": "漆姑",
+   "category": "小滿",
+   "hex": "#5D8351",
+   "rgb": [
+    93,
+    131,
+    81
+   ],
+   "family": "绿色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.5682,
+    "C": 0.0856,
+    "h": 138.4
+   },
+   "chromaRatio": 0.483
+  },
+  {
+   "name": "翠微",
+   "category": "穀雨",
+   "hex": "#4C8045",
+   "rgb": [
+    76,
+    128,
+    69
+   ],
+   "family": "绿色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.548,
+    "C": 0.1044,
+    "h": 141.4
+   },
+   "chromaRatio": 0.573
+  },
+  {
+   "name": "翕赩",
+   "category": "寒露",
+   "hex": "#5F766A",
+   "rgb": [
+    95,
+    118,
+    106
+   ],
+   "family": "绿色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.5436,
+    "C": 0.0328,
+    "h": 162.4
+   },
+   "chromaRatio": 0.277
+  },
+  {
+   "name": "芰荷",
+   "category": "小滿",
+   "hex": "#4F794A",
+   "rgb": [
+    79,
+    121,
+    74
+   ],
+   "family": "绿色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.5324,
+    "C": 0.0855,
+    "h": 141.8
+   },
+   "chromaRatio": 0.479
+  },
+  {
+   "name": "油綠",
+   "category": "大雪",
+   "hex": "#5D7259",
+   "rgb": [
+    93,
+    114,
+    89
+   ],
+   "family": "绿色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.5276,
+    "C": 0.0458,
+    "h": 140.6
+   },
+   "chromaRatio": 0.266
+  },
+  {
+   "name": "青青",
+   "category": "雨水",
+   "hex": "#4F6F46",
+   "rgb": [
+    79,
+    111,
+    70
+   ],
+   "family": "绿色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.5056,
+    "C": 0.073,
+    "h": 138.9
+   },
+   "chromaRatio": 0.458
+  },
+  {
+   "name": "翠虯",
+   "category": "穀雨",
+   "hex": "#446A37",
+   "rgb": [
+    68,
+    106,
+    55
+   ],
+   "family": "绿色系",
+   "lightness": "深色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.4823,
+    "C": 0.0888,
+    "h": 138.1
+   },
+   "chromaRatio": 0.594
+  },
+  {
+   "name": "官綠",
+   "category": "小滿",
+   "hex": "#2A6E3F",
+   "rgb": [
+    42,
+    110,
+    63
+   ],
+   "family": "绿色系",
+   "lightness": "深色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.482,
+    "C": 0.1018,
+    "h": 150.9
+   },
+   "chromaRatio": 0.782
+  },
+  {
+   "name": "莓莓",
+   "category": "大雪",
+   "hex": "#4E6548",
+   "rgb": [
+    78,
+    101,
+    72
+   ],
+   "family": "绿色系",
+   "lightness": "深色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.4795,
+    "C": 0.0532,
+    "h": 139.2
+   },
+   "chromaRatio": 0.349
+  },
+  {
+   "name": "結綠",
+   "category": "白露",
+   "hex": "#555F4D",
+   "rgb": [
+    85,
+    95,
+    77
+   ],
+   "family": "绿色系",
+   "lightness": "深色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.4713,
+    "C": 0.0309,
+    "h": 131.3
+   },
+   "chromaRatio": 0.238
+  },
+  {
+   "name": "螺青",
+   "category": "大雪",
+   "hex": "#3F503B",
+   "rgb": [
+    63,
+    80,
+    59
+   ],
+   "family": "绿色系",
+   "lightness": "深色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.4102,
+    "C": 0.0404,
+    "h": 139.7
+   },
+   "chromaRatio": 0.307
+  },
+  {
+   "name": "綠雲",
+   "category": "白露",
+   "hex": "#45493D",
+   "rgb": [
+    69,
+    73,
+    61
+   ],
+   "family": "绿色系",
+   "lightness": "深色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.3978,
+    "C": 0.0203,
+    "h": 122.3
+   },
+   "chromaRatio": 0.209
+  },
+  {
+   "name": "天縹",
+   "category": "立春",
+   "hex": "#d5ebe1",
+   "rgb": [
+    213,
+    235,
+    225
+   ],
+   "family": "青色系",
+   "lightness": "浅色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.921,
+    "C": 0.0268,
+    "h": 166.7
+   },
+   "chromaRatio": 0.222
+  },
+  {
+   "name": "滄浪",
+   "category": "立春",
+   "hex": "#b1d5c8",
+   "rgb": [
+    177,
+    213,
+    200
+   ],
+   "family": "青色系",
+   "lightness": "浅色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.8432,
+    "C": 0.0422,
+    "h": 171.4
+   },
+   "chromaRatio": 0.256
+  },
+  {
+   "name": "井天",
+   "category": "小寒",
+   "hex": "#A4C9CC",
+   "rgb": [
+    164,
+    201,
+    204
+   ],
+   "family": "青色系",
+   "lightness": "浅色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.8101,
+    "C": 0.0396,
+    "h": 202.5
+   },
+   "chromaRatio": 0.287
+  },
+  {
+   "name": "西子",
+   "category": "處暑",
+   "hex": "#87C0CA",
+   "rgb": [
+    135,
+    192,
+    202
+   ],
+   "family": "青色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.772,
+    "C": 0.0605,
+    "h": 209.6
+   },
+   "chromaRatio": 0.454
+  },
+  {
+   "name": "醽醁",
+   "category": "寒露",
+   "hex": "#A6BAB1",
+   "rgb": [
+    166,
+    186,
+    177
+   ],
+   "family": "青色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.771,
+    "C": 0.0254,
+    "h": 166.9
+   },
+   "chromaRatio": 0.16
+  },
+  {
+   "name": "蒼筤",
+   "category": "立春",
+   "hex": "#99bcac",
+   "rgb": [
+    153,
+    188,
+    172
+   ],
+   "family": "青色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.7648,
+    "C": 0.0441,
+    "h": 165.7
+   },
+   "chromaRatio": 0.277
+  },
+  {
+   "name": "繱犗",
+   "category": "立冬",
+   "hex": "#88BFB8",
+   "rgb": [
+    136,
+    191,
+    184
+   ],
+   "family": "青色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.7645,
+    "C": 0.0582,
+    "h": 186.2
+   },
+   "chromaRatio": 0.434
+  },
+  {
+   "name": "正青",
+   "category": "小寒",
+   "hex": "#6CA8AF",
+   "rgb": [
+    108,
+    168,
+    175
+   ],
+   "family": "青色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.6932,
+    "C": 0.0629,
+    "h": 205.2
+   },
+   "chromaRatio": 0.531
+  },
+  {
+   "name": "天水碧",
+   "category": "處暑",
+   "hex": "#5AA4AE",
+   "rgb": [
+    90,
+    164,
+    174
+   ],
+   "family": "青色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.6746,
+    "C": 0.0752,
+    "h": 206.9
+   },
+   "chromaRatio": 0.65
+  },
+  {
+   "name": "二綠",
+   "category": "立冬",
+   "hex": "#5DA39D",
+   "rgb": [
+    93,
+    163,
+    157
+   ],
+   "family": "青色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.6677,
+    "C": 0.0716,
+    "h": 188.5
+   },
+   "chromaRatio": 0.618
+  },
+  {
+   "name": "扁青",
+   "category": "小寒",
+   "hex": "#509296",
+   "rgb": [
+    80,
+    146,
+    150
+   ],
+   "family": "青色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.6179,
+    "C": 0.0677,
+    "h": 200.7
+   },
+   "chromaRatio": 0.644
+  },
+  {
+   "name": "銅青",
+   "category": "立冬",
+   "hex": "#3D8E86",
+   "rgb": [
+    61,
+    142,
+    134
+   ],
+   "family": "青色系",
+   "lightness": "中色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.5944,
+    "C": 0.0798,
+    "h": 186.5
+   },
+   "chromaRatio": 0.767
+  },
+  {
+   "name": "法翠",
+   "category": "處暑",
+   "hex": "#108B96",
+   "rgb": [
+    16,
+    139,
+    150
+   ],
+   "family": "青色系",
+   "lightness": "中色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.5822,
+    "C": 0.0966,
+    "h": 204.9
+   },
+   "chromaRatio": 0.971
+  },
+  {
+   "name": "青雘",
+   "category": "春分",
+   "hex": "#007175",
+   "rgb": [
+    0,
+    113,
+    117
+   ],
+   "family": "青色系",
+   "lightness": "深色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.4983,
+    "C": 0.0847,
+    "h": 199.1
+   },
+   "chromaRatio": 0.999
+  },
+  {
+   "name": "䌦色",
+   "category": "小寒",
+   "hex": "#226B68",
+   "rgb": [
+    34,
+    107,
+    104
+   ],
+   "family": "青色系",
+   "lightness": "深色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.4828,
+    "C": 0.0706,
+    "h": 191.2
+   },
+   "chromaRatio": 0.849
+  },
+  {
+   "name": "石綠",
+   "category": "立冬",
+   "hex": "#206864",
+   "rgb": [
+    32,
+    104,
+    100
+   ],
+   "family": "青色系",
+   "lightness": "深色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.4725,
+    "C": 0.0699,
+    "h": 189.8
+   },
+   "chromaRatio": 0.855
+  },
+  {
+   "name": "月白",
+   "category": "小雪",
+   "hex": "#D4E5EF",
+   "rgb": [
+    212,
+    229,
+    239
+   ],
+   "family": "蓝色系",
+   "lightness": "浅色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.9122,
+    "C": 0.0227,
+    "h": 233.4
+   },
+   "chromaRatio": 0.447
+  },
+  {
+   "name": "星郎",
+   "category": "小雪",
+   "hex": "#BCD4E7",
+   "rgb": [
+    188,
+    212,
+    231
+   ],
+   "family": "蓝色系",
+   "lightness": "浅色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.8581,
+    "C": 0.037,
+    "h": 241.9
+   },
+   "chromaRatio": 0.48
+  },
+  {
+   "name": "碧落",
+   "category": "穀雨",
+   "hex": "#AED0EE",
+   "rgb": [
+    174,
+    208,
+    238
+   ],
+   "family": "蓝色系",
+   "lightness": "浅色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.8428,
+    "C": 0.0556,
+    "h": 245.2
+   },
+   "chromaRatio": 0.665
+  },
+  {
+   "name": "雲門",
+   "category": "處暑",
+   "hex": "#A2D2E2",
+   "rgb": [
+    162,
+    210,
+    226
+   ],
+   "family": "蓝色系",
+   "lightness": "浅色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.8353,
+    "C": 0.0547,
+    "h": 220.3
+   },
+   "chromaRatio": 0.457
+  },
+  {
+   "name": "晴山",
+   "category": "小雪",
+   "hex": "#A3BBDB",
+   "rgb": [
+    163,
+    187,
+    219
+   ],
+   "family": "蓝色系",
+   "lightness": "浅色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.7848,
+    "C": 0.0528,
+    "h": 255.7
+   },
+   "chromaRatio": 0.477
+  },
+  {
+   "name": "白青",
+   "category": "立秋",
+   "hex": "#98B6C2",
+   "rgb": [
+    152,
+    182,
+    194
+   ],
+   "family": "蓝色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.7578,
+    "C": 0.037,
+    "h": 224.0
+   },
+   "chromaRatio": 0.26
+  },
+  {
+   "name": "竊藍",
+   "category": "立秋",
+   "hex": "#88ABDA",
+   "rgb": [
+    136,
+    171,
+    218
+   ],
+   "family": "蓝色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.7328,
+    "C": 0.0787,
+    "h": 255.9
+   },
+   "chromaRatio": 0.562
+  },
+  {
+   "name": "品月",
+   "category": "小雪",
+   "hex": "#8AABCC",
+   "rgb": [
+    138,
+    171,
+    204
+   ],
+   "family": "蓝色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.7284,
+    "C": 0.0603,
+    "h": 248.7
+   },
+   "chromaRatio": 0.409
+  },
+  {
+   "name": "青鸞",
+   "category": "驚蟄",
+   "hex": "#9AA7B1",
+   "rgb": [
+    154,
+    167,
+    177
+   ],
+   "family": "蓝色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.7213,
+    "C": 0.0207,
+    "h": 240.8
+   },
+   "chromaRatio": 0.129
+  },
+  {
+   "name": "東方既白",
+   "category": "寒露",
+   "hex": "#8BA3C7",
+   "rgb": [
+    139,
+    163,
+    199
+   ],
+   "family": "蓝色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.7099,
+    "C": 0.0594,
+    "h": 258.4
+   },
+   "chromaRatio": 0.39
+  },
+  {
+   "name": "竹月",
+   "category": "立秋",
+   "hex": "#7F9FAF",
+   "rgb": [
+    127,
+    159,
+    175
+   ],
+   "family": "蓝色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.684,
+    "C": 0.0426,
+    "h": 229.8
+   },
+   "chromaRatio": 0.313
+  },
+  {
+   "name": "挼藍",
+   "category": "穀雨",
+   "hex": "#6E9BC5",
+   "rgb": [
+    110,
+    155,
+    197
+   ],
+   "family": "蓝色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.6733,
+    "C": 0.0794,
+    "h": 247.4
+   },
+   "chromaRatio": 0.445
+  },
+  {
+   "name": "監德",
+   "category": "立秋",
+   "hex": "#6F94CD",
+   "rgb": [
+    111,
+    148,
+    205
+   ],
+   "family": "蓝色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.6622,
+    "C": 0.0949,
+    "h": 258.8
+   },
+   "chromaRatio": 0.526
+  },
+  {
+   "name": "秋藍",
+   "category": "小寒",
+   "hex": "#7D929F",
+   "rgb": [
+    125,
+    146,
+    159
+   ],
+   "family": "蓝色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.6479,
+    "C": 0.0309,
+    "h": 235.1
+   },
+   "chromaRatio": 0.224
+  },
+  {
+   "name": "孔雀藍",
+   "category": "秋分",
+   "hex": "#4994C4",
+   "rgb": [
+    73,
+    148,
+    196
+   ],
+   "family": "蓝色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.639,
+    "C": 0.1037,
+    "h": 239.3
+   },
+   "chromaRatio": 0.716
+  },
+  {
+   "name": "空青",
+   "category": "立秋",
+   "hex": "#66889E",
+   "rgb": [
+    102,
+    136,
+    158
+   ],
+   "family": "蓝色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.6092,
+    "C": 0.0508,
+    "h": 237.1
+   },
+   "chromaRatio": 0.382
+  },
+  {
+   "name": "吐綬藍",
+   "category": "秋分",
+   "hex": "#4182A4",
+   "rgb": [
+    65,
+    130,
+    164
+   ],
+   "family": "蓝色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.5781,
+    "C": 0.0845,
+    "h": 233.7
+   },
+   "chromaRatio": 0.701
+  },
+  {
+   "name": "蒼蒼",
+   "category": "立秋",
+   "hex": "#5976BA",
+   "rgb": [
+    89,
+    118,
+    186
+   ],
+   "family": "蓝色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.5741,
+    "C": 0.1107,
+    "h": 265.6
+   },
+   "chromaRatio": 0.475
+  },
+  {
+   "name": "菘藍",
+   "category": "驚蟄",
+   "hex": "#6B798E",
+   "rgb": [
+    107,
+    121,
+    142
+   ],
+   "family": "蓝色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.5722,
+    "C": 0.0365,
+    "h": 258.4
+   },
+   "chromaRatio": 0.17
+  },
+  {
+   "name": "太師青",
+   "category": "立秋",
+   "hex": "#547689",
+   "rgb": [
+    84,
+    118,
+    137
+   ],
+   "family": "蓝色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.5473,
+    "C": 0.0488,
+    "h": 233.3
+   },
+   "chromaRatio": 0.43
+  },
+  {
+   "name": "青冥",
+   "category": "春分",
+   "hex": "#3271AE",
+   "rgb": [
+    50,
+    113,
+    174
+   ],
+   "family": "蓝色系",
+   "lightness": "中色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.537,
+    "C": 0.1157,
+    "h": 250.2
+   },
+   "chromaRatio": 0.756
+  },
+  {
+   "name": "魚師青",
+   "category": "秋分",
+   "hex": "#32788A",
+   "rgb": [
+    50,
+    120,
+    138
+   ],
+   "family": "蓝色系",
+   "lightness": "中色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.5359,
+    "C": 0.0746,
+    "h": 217.5
+   },
+   "chromaRatio": 0.777
+  },
+  {
+   "name": "育陽染",
+   "category": "小寒",
+   "hex": "#576470",
+   "rgb": [
+    87,
+    100,
+    112
+   ],
+   "family": "蓝色系",
+   "lightness": "深色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.4966,
+    "C": 0.025,
+    "h": 246.2
+   },
+   "chromaRatio": 0.195
+  },
+  {
+   "name": "軟翠",
+   "category": "秋分",
+   "hex": "#006D87",
+   "rgb": [
+    0,
+    109,
+    135
+   ],
+   "family": "蓝色系",
+   "lightness": "深色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.4956,
+    "C": 0.0915,
+    "h": 221.9
+   },
+   "chromaRatio": 0.999
+  },
+  {
+   "name": "柔藍",
+   "category": "小暑",
+   "hex": "#106898",
+   "rgb": [
+    16,
+    104,
+    152
+   ],
+   "family": "蓝色系",
+   "lightness": "深色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.4937,
+    "C": 0.1077,
+    "h": 240.1
+   },
+   "chromaRatio": 0.949
+  },
+  {
+   "name": "群青",
+   "category": "立秋",
+   "hex": "#2E59A7",
+   "rgb": [
+    46,
+    89,
+    167
+   ],
+   "family": "蓝色系",
+   "lightness": "深色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.476,
+    "C": 0.1345,
+    "h": 261.2
+   },
+   "chromaRatio": 0.645
+  },
+  {
+   "name": "曾青",
+   "category": "芒種",
+   "hex": "#535164",
+   "rgb": [
+    83,
+    81,
+    100
+   ],
+   "family": "蓝色系",
+   "lightness": "深色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.4441,
+    "C": 0.031,
+    "h": 289.9
+   },
+   "chromaRatio": 0.123
+  },
+  {
+   "name": "青雀頭黛",
+   "category": "穀雨",
+   "hex": "#354E6B",
+   "rgb": [
+    53,
+    78,
+    107
+   ],
+   "family": "蓝色系",
+   "lightness": "深色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.4168,
+    "C": 0.0577,
+    "h": 252.8
+   },
+   "chromaRatio": 0.451
+  },
+  {
+   "name": "碧城",
+   "category": "小暑",
+   "hex": "#12507B",
+   "rgb": [
+    18,
+    80,
+    123
+   ],
+   "family": "蓝色系",
+   "lightness": "深色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.4161,
+    "C": 0.0936,
+    "h": 244.6
+   },
+   "chromaRatio": 0.9
+  },
+  {
+   "name": "青黛",
+   "category": "驚蟄",
+   "hex": "#45465E",
+   "rgb": [
+    69,
+    70,
+    94
+   ],
+   "family": "蓝色系",
+   "lightness": "深色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.4032,
+    "C": 0.0402,
+    "h": 282.6
+   },
+   "chromaRatio": 0.168
+  },
+  {
+   "name": "䒌靘",
+   "category": "芒種",
+   "hex": "#454659",
+   "rgb": [
+    69,
+    70,
+    89
+   ],
+   "family": "蓝色系",
+   "lightness": "深色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.4009,
+    "C": 0.0319,
+    "h": 282.5
+   },
+   "chromaRatio": 0.134
+  },
+  {
+   "name": "霽藍",
+   "category": "小寒",
+   "hex": "#3C4654",
+   "rgb": [
+    60,
+    70,
+    84
+   ],
+   "family": "蓝色系",
+   "lightness": "深色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.3908,
+    "C": 0.0272,
+    "h": 256.8
+   },
+   "chromaRatio": 0.197
+  },
+  {
+   "name": "青緺",
+   "category": "春分",
+   "hex": "#284852",
+   "rgb": [
+    40,
+    72,
+    82
+   ],
+   "family": "蓝色系",
+   "lightness": "深色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.3813,
+    "C": 0.0413,
+    "h": 220.0
+   },
+   "chromaRatio": 0.594
+  },
+  {
+   "name": "藍采和",
+   "category": "小暑",
+   "hex": "#06436F",
+   "rgb": [
+    6,
+    67,
+    111
+   ],
+   "family": "蓝色系",
+   "lightness": "深色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.3724,
+    "C": 0.0942,
+    "h": 247.2
+   },
+   "chromaRatio": 0.955
+  },
+  {
+   "name": "紺宇",
+   "category": "寒露",
+   "hex": "#003D74",
+   "rgb": [
+    0,
+    61,
+    116
+   ],
+   "family": "蓝色系",
+   "lightness": "深色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.3595,
+    "C": 0.1096,
+    "h": 252.6
+   },
+   "chromaRatio": 0.997
+  },
+  {
+   "name": "佛頭青",
+   "category": "寒露",
+   "hex": "#19325F",
+   "rgb": [
+    25,
+    50,
+    95
+   ],
+   "family": "蓝色系",
+   "lightness": "深色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.3236,
+    "C": 0.0859,
+    "h": 261.1
+   },
+   "chromaRatio": 0.606
+  },
+  {
+   "name": "帝釋青",
+   "category": "小暑",
+   "hex": "#003460",
+   "rgb": [
+    0,
+    52,
+    96
+   ],
+   "family": "蓝色系",
+   "lightness": "深色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.3212,
+    "C": 0.0926,
+    "h": 250.7
+   },
+   "chromaRatio": 0.996
+  },
+  {
+   "name": "花青",
+   "category": "寒露",
+   "hex": "#1A2847",
+   "rgb": [
+    26,
+    40,
+    71
+   ],
+   "family": "蓝色系",
+   "lightness": "深色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.2816,
+    "C": 0.0605,
+    "h": 264.5
+   },
+   "chromaRatio": 0.311
+  },
+  {
+   "name": "騏驎",
+   "category": "春分",
+   "hex": "#12264F",
+   "rgb": [
+    18,
+    38,
+    79
+   ],
+   "family": "蓝色系",
+   "lightness": "深色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.2777,
+    "C": 0.0798,
+    "h": 262.8
+   },
+   "chromaRatio": 0.577
+  },
+  {
+   "name": "昌榮",
+   "category": "穀雨",
+   "hex": "#DCC7E1",
+   "rgb": [
+    220,
+    199,
+    225
+   ],
+   "family": "紫色系",
+   "lightness": "浅色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.8549,
+    "C": 0.0421,
+    "h": 319.7
+   },
+   "chromaRatio": 0.364
+  },
+  {
+   "name": "暮山紫",
+   "category": "大雪",
+   "hex": "#A4ABD6",
+   "rgb": [
+    164,
+    171,
+    214
+   ],
+   "family": "紫色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.7506,
+    "C": 0.0624,
+    "h": 277.6
+   },
+   "chromaRatio": 0.482
+  },
+  {
+   "name": "紫薄汗",
+   "category": "穀雨",
+   "hex": "#BBA1CB",
+   "rgb": [
+    187,
+    161,
+    203
+   ],
+   "family": "紫色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.7457,
+    "C": 0.0658,
+    "h": 312.5
+   },
+   "chromaRatio": 0.356
+  },
+  {
+   "name": "黲紫",
+   "category": "小雪",
+   "hex": "#CC73A0",
+   "rgb": [
+    204,
+    115,
+    160
+   ],
+   "family": "紫色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.6675,
+    "C": 0.1237,
+    "h": 349.3
+   },
+   "chromaRatio": 0.462
+  },
+  {
+   "name": "紫菂",
+   "category": "清明",
+   "hex": "#9B8EA9",
+   "rgb": [
+    155,
+    142,
+    169
+   ],
+   "family": "紫色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.6671,
+    "C": 0.0419,
+    "h": 307.0
+   },
+   "chromaRatio": 0.183
+  },
+  {
+   "name": "木槿",
+   "category": "處暑",
+   "hex": "#BA79B1",
+   "rgb": [
+    186,
+    121,
+    177
+   ],
+   "family": "紫色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.6622,
+    "C": 0.1098,
+    "h": 331.8
+   },
+   "chromaRatio": 0.367
+  },
+  {
+   "name": "銀褐",
+   "category": "大寒",
+   "hex": "#9C8D9B",
+   "rgb": [
+    156,
+    141,
+    155
+   ],
+   "family": "紫色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.6611,
+    "C": 0.0268,
+    "h": 327.9
+   },
+   "chromaRatio": 0.088
+  },
+  {
+   "name": "茈藐",
+   "category": "穀雨",
+   "hex": "#A67EB7",
+   "rgb": [
+    166,
+    126,
+    183
+   ],
+   "family": "紫色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.6521,
+    "C": 0.094,
+    "h": 315.6
+   },
+   "chromaRatio": 0.337
+  },
+  {
+   "name": "煙紅",
+   "category": "大寒",
+   "hex": "#9D858F",
+   "rgb": [
+    157,
+    133,
+    143
+   ],
+   "family": "紫色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.6418,
+    "C": 0.0323,
+    "h": 351.0
+   },
+   "chromaRatio": 0.121
+  },
+  {
+   "name": "迷樓灰",
+   "category": "霜降",
+   "hex": "#91828F",
+   "rgb": [
+    145,
+    130,
+    143
+   ],
+   "family": "紫色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.6243,
+    "C": 0.0261,
+    "h": 330.2
+   },
+   "chromaRatio": 0.092
+  },
+  {
+   "name": "紅藤杖",
+   "category": "白露",
+   "hex": "#928187",
+   "rgb": [
+    146,
+    129,
+    135
+   ],
+   "family": "紫色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.6205,
+    "C": 0.0224,
+    "h": 354.4
+   },
+   "chromaRatio": 0.088
+  },
+  {
+   "name": "紫苑",
+   "category": "大雪",
+   "hex": "#757CBB",
+   "rgb": [
+    117,
+    124,
+    187
+   ],
+   "family": "紫色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.6065,
+    "C": 0.0959,
+    "h": 278.3
+   },
+   "chromaRatio": 0.443
+  },
+  {
+   "name": "胭脂水",
+   "category": "小雪",
+   "hex": "#B95A89",
+   "rgb": [
+    185,
+    90,
+    137
+   ],
+   "family": "紫色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.5967,
+    "C": 0.1337,
+    "h": 351.0
+   },
+   "chromaRatio": 0.539
+  },
+  {
+   "name": "紫莖屏風",
+   "category": "雨水",
+   "hex": "#A76283",
+   "rgb": [
+    167,
+    98,
+    131
+   ],
+   "family": "紫色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.5835,
+    "C": 0.0983,
+    "h": 350.5
+   },
+   "chromaRatio": 0.404
+  },
+  {
+   "name": "紫蒲",
+   "category": "清明",
+   "hex": "#A6559D",
+   "rgb": [
+    166,
+    85,
+    157
+   ],
+   "family": "紫色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.5722,
+    "C": 0.1405,
+    "h": 331.5
+   },
+   "chromaRatio": 0.542
+  },
+  {
+   "name": "紫府",
+   "category": "大寒",
+   "hex": "#995D7F",
+   "rgb": [
+    153,
+    93,
+    127
+   ],
+   "family": "紫色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.556,
+    "C": 0.0902,
+    "h": 345.4
+   },
+   "chromaRatio": 0.382
+  },
+  {
+   "name": "紅躑躅",
+   "category": "清明",
+   "hex": "#B83570",
+   "rgb": [
+    184,
+    53,
+    112
+   ],
+   "family": "紫色系",
+   "lightness": "中色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.541,
+    "C": 0.1745,
+    "h": 357.2
+   },
+   "chromaRatio": 0.79
+  },
+  {
+   "name": "優曇瑞",
+   "category": "大雪",
+   "hex": "#615EA8",
+   "rgb": [
+    97,
+    94,
+    168
+   ],
+   "family": "紫色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.5193,
+    "C": 0.1147,
+    "h": 283.5
+   },
+   "chromaRatio": 0.41
+  },
+  {
+   "name": "紫紶",
+   "category": "穀雨",
+   "hex": "#7D5284",
+   "rgb": [
+    125,
+    82,
+    132
+   ],
+   "family": "紫色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.5049,
+    "C": 0.0922,
+    "h": 321.8
+   },
+   "chromaRatio": 0.384
+  },
+  {
+   "name": "拂紫綿",
+   "category": "清明",
+   "hex": "#7E527F",
+   "rgb": [
+    126,
+    82,
+    127
+   ],
+   "family": "紫色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.5038,
+    "C": 0.0873,
+    "h": 326.0
+   },
+   "chromaRatio": 0.372
+  },
+  {
+   "name": "鴉雛",
+   "category": "霜降",
+   "hex": "#6A5B6D",
+   "rgb": [
+    106,
+    91,
+    109
+   ],
+   "family": "紫色系",
+   "lightness": "深色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.4921,
+    "C": 0.0338,
+    "h": 320.6
+   },
+   "chromaRatio": 0.143
+  },
+  {
+   "name": "地血",
+   "category": "大寒",
+   "hex": "#814662",
+   "rgb": [
+    129,
+    70,
+    98
+   ],
+   "family": "紫色系",
+   "lightness": "深色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.4745,
+    "C": 0.0881,
+    "h": 351.1
+   },
+   "chromaRatio": 0.446
+  },
+  {
+   "name": "延維",
+   "category": "大雪",
+   "hex": "#4A4B9D",
+   "rgb": [
+    74,
+    75,
+    157
+   ],
+   "family": "紫色系",
+   "lightness": "深色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.456,
+    "C": 0.1301,
+    "h": 279.4
+   },
+   "chromaRatio": 0.469
+  },
+  {
+   "name": "赬紫",
+   "category": "清明",
+   "hex": "#8A1874",
+   "rgb": [
+    138,
+    24,
+    116
+   ],
+   "family": "紫色系",
+   "lightness": "深色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.4416,
+    "C": 0.175,
+    "h": 337.7
+   },
+   "chromaRatio": 0.901
+  },
+  {
+   "name": "紫鼠",
+   "category": "白露",
+   "hex": "#594C57",
+   "rgb": [
+    89,
+    76,
+    87
+   ],
+   "family": "紫色系",
+   "lightness": "深色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.4335,
+    "C": 0.0245,
+    "h": 331.1
+   },
+   "chromaRatio": 0.125
+  },
+  {
+   "name": "三公子",
+   "category": "清明",
+   "hex": "#663D74",
+   "rgb": [
+    102,
+    61,
+    116
+   ],
+   "family": "紫色系",
+   "lightness": "深色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.4319,
+    "C": 0.0995,
+    "h": 317.1
+   },
+   "chromaRatio": 0.472
+  },
+  {
+   "name": "齊紫",
+   "category": "清明",
+   "hex": "#6C216D",
+   "rgb": [
+    108,
+    33,
+    109
+   ],
+   "family": "紫色系",
+   "lightness": "深色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.3961,
+    "C": 0.1425,
+    "h": 327.3
+   },
+   "chromaRatio": 0.777
+  },
+  {
+   "name": "芥拾紫",
+   "category": "大寒",
+   "hex": "#602641",
+   "rgb": [
+    96,
+    38,
+    65
+   ],
+   "family": "紫色系",
+   "lightness": "深色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.3609,
+    "C": 0.0905,
+    "h": 353.5
+   },
+   "chromaRatio": 0.607
+  },
+  {
+   "name": "凝夜紫",
+   "category": "清明",
+   "hex": "#422256",
+   "rgb": [
+    66,
+    34,
+    86
+   ],
+   "family": "紫色系",
+   "lightness": "深色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.3208,
+    "C": 0.0945,
+    "h": 310.6
+   },
+   "chromaRatio": 0.583
+  },
+  {
+   "name": "油紫",
+   "category": "大寒",
+   "hex": "#420B2F",
+   "rgb": [
+    66,
+    11,
+    47
+   ],
+   "family": "紫色系",
+   "lightness": "深色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.2645,
+    "C": 0.0933,
+    "h": 345.3
+   },
+   "chromaRatio": 0.827
+  },
+  {
+   "name": "盈盈",
+   "category": "雨水",
+   "hex": "#F9D3E3",
+   "rgb": [
+    249,
+    211,
+    227
+   ],
+   "family": "粉色系",
+   "lightness": "浅色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.9035,
+    "C": 0.0471,
+    "h": 350.8
+   },
+   "chromaRatio": 0.802
+  },
+  {
+   "name": "退紅",
+   "category": "處暑",
+   "hex": "#F0CFE3",
+   "rgb": [
+    240,
+    207,
+    227
+   ],
+   "family": "粉色系",
+   "lightness": "浅色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.888,
+    "C": 0.0452,
+    "h": 341.1
+   },
+   "chromaRatio": 0.576
+  },
+  {
+   "name": "銀紅",
+   "category": "冬至",
+   "hex": "#E7CAD3",
+   "rgb": [
+    231,
+    202,
+    211
+   ],
+   "family": "粉色系",
+   "lightness": "浅色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.8659,
+    "C": 0.0346,
+    "h": 357.1
+   },
+   "chromaRatio": 0.434
+  },
+  {
+   "name": "粉米",
+   "category": "大雪",
+   "hex": "#EFC4CE",
+   "rgb": [
+    239,
+    196,
+    206
+   ],
+   "family": "粉色系",
+   "lightness": "浅色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.8604,
+    "C": 0.0505,
+    "h": 2.6
+   },
+   "chromaRatio": 0.63
+  },
+  {
+   "name": "桃夭",
+   "category": "驚蟄",
+   "hex": "#F6BEC8",
+   "rgb": [
+    246,
+    190,
+    200
+   ],
+   "family": "粉色系",
+   "lightness": "浅色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.8544,
+    "C": 0.0655,
+    "h": 6.6
+   },
+   "chromaRatio": 0.797
+  },
+  {
+   "name": "櫻花",
+   "category": "處暑",
+   "hex": "#E4B8D5",
+   "rgb": [
+    228,
+    184,
+    213
+   ],
+   "family": "粉色系",
+   "lightness": "浅色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.8301,
+    "C": 0.0632,
+    "h": 339.1
+   },
+   "chromaRatio": 0.485
+  },
+  {
+   "name": "水紅",
+   "category": "雨水",
+   "hex": "#ECB0C1",
+   "rgb": [
+    236,
+    176,
+    193
+   ],
+   "family": "粉色系",
+   "lightness": "浅色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.8173,
+    "C": 0.073,
+    "h": 0.2
+   },
+   "chromaRatio": 0.654
+  },
+  {
+   "name": "夕嵐",
+   "category": "大暑",
+   "hex": "#E3ADB9",
+   "rgb": [
+    227,
+    173,
+    185
+   ],
+   "family": "粉色系",
+   "lightness": "浅色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.8005,
+    "C": 0.0649,
+    "h": 3.9
+   },
+   "chromaRatio": 0.536
+  },
+  {
+   "name": "海天霞",
+   "category": "立春",
+   "hex": "#f3a694",
+   "rgb": [
+    243,
+    166,
+    148
+   ],
+   "family": "粉色系",
+   "lightness": "浅色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.7954,
+    "C": 0.0955,
+    "h": 33.7
+   },
+   "chromaRatio": 0.801
+  },
+  {
+   "name": "石英",
+   "category": "大寒",
+   "hex": "#C8B6BB",
+   "rgb": [
+    200,
+    182,
+    187
+   ],
+   "family": "粉色系",
+   "lightness": "浅色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.7929,
+    "C": 0.0216,
+    "h": 358.8
+   },
+   "chromaRatio": 0.165
+  },
+  {
+   "name": "蒼煙落照",
+   "category": "白露",
+   "hex": "#C8B5B3",
+   "rgb": [
+    200,
+    181,
+    179
+   ],
+   "family": "粉色系",
+   "lightness": "浅色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.7886,
+    "C": 0.022,
+    "h": 24.8
+   },
+   "chromaRatio": 0.18
+  },
+  {
+   "name": "咸池",
+   "category": "冬至",
+   "hex": "#DAA9A9",
+   "rgb": [
+    218,
+    169,
+    169
+   ],
+   "family": "粉色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.7796,
+    "C": 0.0578,
+    "h": 18.5
+   },
+   "chromaRatio": 0.447
+  },
+  {
+   "name": "彤管",
+   "category": "小滿",
+   "hex": "#E2A2AC",
+   "rgb": [
+    226,
+    162,
+    172
+   ],
+   "family": "粉色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.7759,
+    "C": 0.0769,
+    "h": 8.7
+   },
+   "chromaRatio": 0.565
+  },
+  {
+   "name": "蓮紅",
+   "category": "冬至",
+   "hex": "#D9A0B3",
+   "rgb": [
+    217,
+    160,
+    179
+   ],
+   "family": "粉色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.7649,
+    "C": 0.0717,
+    "h": 357.2
+   },
+   "chromaRatio": 0.461
+  },
+  {
+   "name": "丁香",
+   "category": "處暑",
+   "hex": "#CE93BF",
+   "rgb": [
+    206,
+    147,
+    191
+   ],
+   "family": "粉色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.7342,
+    "C": 0.0915,
+    "h": 336.0
+   },
+   "chromaRatio": 0.384
+  },
+  {
+   "name": "雌霓",
+   "category": "大暑",
+   "hex": "#CF929E",
+   "rgb": [
+    207,
+    146,
+    158
+   ],
+   "family": "粉色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.7228,
+    "C": 0.0752,
+    "h": 6.1
+   },
+   "chromaRatio": 0.416
+  },
+  {
+   "name": "龍膏燭",
+   "category": "小雪",
+   "hex": "#DE82A7",
+   "rgb": [
+    222,
+    130,
+    167
+   ],
+   "family": "粉色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.7156,
+    "C": 0.1208,
+    "h": 355.0
+   },
+   "chromaRatio": 0.594
+  },
+  {
+   "name": "縓緣",
+   "category": "大雪",
+   "hex": "#CE8892",
+   "rgb": [
+    206,
+    136,
+    146
+   ],
+   "family": "粉色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.7005,
+    "C": 0.0866,
+    "h": 10.2
+   },
+   "chromaRatio": 0.44
+  },
+  {
+   "name": "黃螺",
+   "category": "小滿",
+   "hex": "#B4A379",
+   "rgb": [
+    180,
+    163,
+    121
+   ],
+   "family": "棕褐色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.7197,
+    "C": 0.0605,
+    "h": 88.5
+   },
+   "chromaRatio": 0.411
+  },
+  {
+   "name": "出岫",
+   "category": "芒種",
+   "hex": "#A9A773",
+   "rgb": [
+    169,
+    167,
+    115
+   ],
+   "family": "棕褐色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.7173,
+    "C": 0.0705,
+    "h": 106.2
+   },
+   "chromaRatio": 0.46
+  },
+  {
+   "name": "佩玖",
+   "category": "立秋",
+   "hex": "#AC9F8A",
+   "rgb": [
+    172,
+    159,
+    138
+   ],
+   "family": "棕褐色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.7079,
+    "C": 0.0333,
+    "h": 79.8
+   },
+   "chromaRatio": 0.227
+  },
+  {
+   "name": "玄校",
+   "category": "大雪",
+   "hex": "#A9A082",
+   "rgb": [
+    169,
+    160,
+    130
+   ],
+   "family": "棕褐色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.7054,
+    "C": 0.0431,
+    "h": 93.3
+   },
+   "chromaRatio": 0.298
+  },
+  {
+   "name": "養生主",
+   "category": "立夏",
+   "hex": "#B49B7F",
+   "rgb": [
+    180,
+    155,
+    127
+   ],
+   "family": "棕褐色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.7045,
+    "C": 0.0491,
+    "h": 70.1
+   },
+   "chromaRatio": 0.321
+  },
+  {
+   "name": "丁香褐",
+   "category": "小寒",
+   "hex": "#BD9683",
+   "rgb": [
+    189,
+    150,
+    131
+   ],
+   "family": "棕褐色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.7043,
+    "C": 0.0543,
+    "h": 47.3
+   },
+   "chromaRatio": 0.28
+  },
+  {
+   "name": "王芻",
+   "category": "小暑",
+   "hex": "#A99F70",
+   "rgb": [
+    169,
+    159,
+    112
+   ],
+   "family": "棕褐色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.6994,
+    "C": 0.0651,
+    "h": 97.6
+   },
+   "chromaRatio": 0.45
+  },
+  {
+   "name": "金埒",
+   "category": "芒種",
+   "hex": "#BE9457",
+   "rgb": [
+    190,
+    148,
+    87
+   ],
+   "family": "棕褐色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.6929,
+    "C": 0.0936,
+    "h": 75.5
+   },
+   "chromaRatio": 0.641
+  },
+  {
+   "name": "春碧",
+   "category": "清明",
+   "hex": "#9D9D82",
+   "rgb": [
+    157,
+    157,
+    130
+   ],
+   "family": "棕褐色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.6886,
+    "C": 0.0381,
+    "h": 107.4
+   },
+   "chromaRatio": 0.258
+  },
+  {
+   "name": "瓊琚",
+   "category": "霜降",
+   "hex": "#D77F66",
+   "rgb": [
+    215,
+    127,
+    102
+   ],
+   "family": "棕褐色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.6857,
+    "C": 0.1156,
+    "h": 36.7
+   },
+   "chromaRatio": 0.558
+  },
+  {
+   "name": "黃埃",
+   "category": "雨水",
+   "hex": "#B49273",
+   "rgb": [
+    180,
+    146,
+    115
+   ],
+   "family": "棕褐色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.6835,
+    "C": 0.0596,
+    "h": 63.9
+   },
+   "chromaRatio": 0.385
+  },
+  {
+   "name": "密陀僧",
+   "category": "寒露",
+   "hex": "#B3934B",
+   "rgb": [
+    179,
+    147,
+    75
+   ],
+   "family": "棕褐色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.6778,
+    "C": 0.0987,
+    "h": 85.6
+   },
+   "chromaRatio": 0.711
+  },
+  {
+   "name": "大赤",
+   "category": "秋分",
+   "hex": "#AA9649",
+   "rgb": [
+    170,
+    150,
+    73
+   ],
+   "family": "棕褐色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.6748,
+    "C": 0.1002,
+    "h": 95.0
+   },
+   "chromaRatio": 0.723
+  },
+  {
+   "name": "紫磨金",
+   "category": "春分",
+   "hex": "#BC836B",
+   "rgb": [
+    188,
+    131,
+    107
+   ],
+   "family": "棕褐色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.6613,
+    "C": 0.0789,
+    "h": 43.7
+   },
+   "chromaRatio": 0.408
+  },
+  {
+   "name": "巨呂",
+   "category": "大暑",
+   "hex": "#AA8E59",
+   "rgb": [
+    170,
+    142,
+    89
+   ],
+   "family": "棕褐色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.6603,
+    "C": 0.0784,
+    "h": 82.6
+   },
+   "chromaRatio": 0.577
+  },
+  {
+   "name": "雌黃",
+   "category": "芒種",
+   "hex": "#B4884D",
+   "rgb": [
+    180,
+    136,
+    77
+   ],
+   "family": "棕褐色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.6567,
+    "C": 0.0935,
+    "h": 73.0
+   },
+   "chromaRatio": 0.668
+  },
+  {
+   "name": "露褐",
+   "category": "穀雨",
+   "hex": "#BD8253",
+   "rgb": [
+    189,
+    130,
+    83
+   ],
+   "family": "棕褐色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.6561,
+    "C": 0.0963,
+    "h": 58.6
+   },
+   "chromaRatio": 0.617
+  },
+  {
+   "name": "執大象",
+   "category": "清明",
+   "hex": "#919177",
+   "rgb": [
+    145,
+    145,
+    119
+   ],
+   "family": "棕褐色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.6495,
+    "C": 0.0372,
+    "h": 107.4
+   },
+   "chromaRatio": 0.267
+  },
+  {
+   "name": "蒸栗",
+   "category": "白露",
+   "hex": "#A58A5F",
+   "rgb": [
+    165,
+    138,
+    95
+   ],
+   "family": "棕褐色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.6479,
+    "C": 0.0674,
+    "h": 78.8
+   },
+   "chromaRatio": 0.5
+  },
+  {
+   "name": "黃琮",
+   "category": "立冬",
+   "hex": "#9E8C6B",
+   "rgb": [
+    158,
+    140,
+    107
+   ],
+   "family": "棕褐色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.6477,
+    "C": 0.0512,
+    "h": 82.5
+   },
+   "chromaRatio": 0.384
+  },
+  {
+   "name": "青圭",
+   "category": "芒種",
+   "hex": "#92905D",
+   "rgb": [
+    146,
+    144,
+    93
+   ],
+   "family": "棕褐色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.6425,
+    "C": 0.0703,
+    "h": 106.3
+   },
+   "chromaRatio": 0.512
+  },
+  {
+   "name": "綠沈",
+   "category": "立秋",
+   "hex": "#938F4C",
+   "rgb": [
+    147,
+    143,
+    76
+   ],
+   "family": "棕褐色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.6384,
+    "C": 0.089,
+    "h": 105.6
+   },
+   "chromaRatio": 0.655
+  },
+  {
+   "name": "石蓮褐",
+   "category": "立夏",
+   "hex": "#92897B",
+   "rgb": [
+    146,
+    137,
+    123
+   ],
+   "family": "棕褐色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.6339,
+    "C": 0.0231,
+    "h": 79.0
+   },
+   "chromaRatio": 0.175
+  },
+  {
+   "name": "綠豆褐",
+   "category": "大寒",
+   "hex": "#92896B",
+   "rgb": [
+    146,
+    137,
+    107
+   ],
+   "family": "棕褐色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.63,
+    "C": 0.0441,
+    "h": 93.3
+   },
+   "chromaRatio": 0.341
+  },
+  {
+   "name": "明茶褐",
+   "category": "小雪",
+   "hex": "#9E8368",
+   "rgb": [
+    158,
+    131,
+    104
+   ],
+   "family": "棕褐色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.6281,
+    "C": 0.0508,
+    "h": 66.7
+   },
+   "chromaRatio": 0.365
+  },
+  {
+   "name": "降真香",
+   "category": "小滿",
+   "hex": "#9E8358",
+   "rgb": [
+    158,
+    131,
+    88
+   ],
+   "family": "棕褐色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.6249,
+    "C": 0.0678,
+    "h": 78.7
+   },
+   "chromaRatio": 0.521
+  },
+  {
+   "name": "沉香",
+   "category": "霜降",
+   "hex": "#99806C",
+   "rgb": [
+    153,
+    128,
+    108
+   ],
+   "family": "棕褐色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.6177,
+    "C": 0.0424,
+    "h": 60.6
+   },
+   "chromaRatio": 0.294
+  },
+  {
+   "name": "大雲",
+   "category": "立夏",
+   "hex": "#94784F",
+   "rgb": [
+    148,
+    120,
+    79
+   ],
+   "family": "棕褐色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.5896,
+    "C": 0.0668,
+    "h": 76.4
+   },
+   "chromaRatio": 0.54
+  },
+  {
+   "name": "藎篋",
+   "category": "小暑",
+   "hex": "#877D52",
+   "rgb": [
+    135,
+    125,
+    82
+   ],
+   "family": "棕褐色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.588,
+    "C": 0.0616,
+    "h": 96.6
+   },
+   "chromaRatio": 0.508
+  },
+  {
+   "name": "茶色",
+   "category": "立冬",
+   "hex": "#887657",
+   "rgb": [
+    136,
+    118,
+    87
+   ],
+   "family": "棕褐色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.5745,
+    "C": 0.0499,
+    "h": 81.0
+   },
+   "chromaRatio": 0.42
+  },
+  {
+   "name": "鷹背褐",
+   "category": "大寒",
+   "hex": "#8F6D5F",
+   "rgb": [
+    143,
+    109,
+    95
+   ],
+   "family": "棕褐色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.5648,
+    "C": 0.0485,
+    "h": 43.4
+   },
+   "chromaRatio": 0.292
+  },
+  {
+   "name": "老僧衣",
+   "category": "雨水",
+   "hex": "#A46244",
+   "rgb": [
+    164,
+    98,
+    68
+   ],
+   "family": "棕褐色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.5633,
+    "C": 0.0963,
+    "h": 44.8
+   },
+   "chromaRatio": 0.595
+  },
+  {
+   "name": "赭羅",
+   "category": "春分",
+   "hex": "#9A6655",
+   "rgb": [
+    154,
+    102,
+    85
+   ],
+   "family": "棕褐色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.5614,
+    "C": 0.0725,
+    "h": 38.9
+   },
+   "chromaRatio": 0.402
+  },
+  {
+   "name": "絞衣",
+   "category": "立秋",
+   "hex": "#7F754C",
+   "rgb": [
+    127,
+    117,
+    76
+   ],
+   "family": "棕褐色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.5612,
+    "C": 0.0594,
+    "h": 96.1
+   },
+   "chromaRatio": 0.514
+  },
+  {
+   "name": "流黃",
+   "category": "立春",
+   "hex": "#8B7042",
+   "rgb": [
+    139,
+    112,
+    66
+   ],
+   "family": "棕褐色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.5607,
+    "C": 0.0718,
+    "h": 79.8
+   },
+   "chromaRatio": 0.617
+  },
+  {
+   "name": "荊褐",
+   "category": "小雪",
+   "hex": "#906C4A",
+   "rgb": [
+    144,
+    108,
+    74
+   ],
+   "family": "棕褐色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.5593,
+    "C": 0.0667,
+    "h": 64.1
+   },
+   "chromaRatio": 0.527
+  },
+  {
+   "name": "吉金",
+   "category": "大暑",
+   "hex": "#896D47",
+   "rgb": [
+    137,
+    109,
+    71
+   ],
+   "family": "棕褐色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.553,
+    "C": 0.0643,
+    "h": 74.3
+   },
+   "chromaRatio": 0.549
+  },
+  {
+   "name": "濯絳",
+   "category": "冬至",
+   "hex": "#796860",
+   "rgb": [
+    121,
+    104,
+    96
+   ],
+   "family": "棕褐色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.5311,
+    "C": 0.025,
+    "h": 46.8
+   },
+   "chromaRatio": 0.17
+  },
+  {
+   "name": "綟綬",
+   "category": "大雪",
+   "hex": "#756C4B",
+   "rgb": [
+    117,
+    108,
+    75
+   ],
+   "family": "棕褐色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.5309,
+    "C": 0.0494,
+    "h": 94.7
+   },
+   "chromaRatio": 0.453
+  },
+  {
+   "name": "棠梨褐",
+   "category": "小寒",
+   "hex": "#955A42",
+   "rgb": [
+    149,
+    90,
+    66
+   ],
+   "family": "棕褐色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.5286,
+    "C": 0.086,
+    "h": 42.7
+   },
+   "chromaRatio": 0.546
+  },
+  {
+   "name": "遠志",
+   "category": "小滿",
+   "hex": "#81663B",
+   "rgb": [
+    129,
+    102,
+    59
+   ],
+   "family": "棕褐色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.5271,
+    "C": 0.0691,
+    "h": 78.0
+   },
+   "chromaRatio": 0.628
+  },
+  {
+   "name": "黑朱",
+   "category": "立夏",
+   "hex": "#70695D",
+   "rgb": [
+    112,
+    105,
+    93
+   ],
+   "family": "棕褐色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.5236,
+    "C": 0.0203,
+    "h": 81.3
+   },
+   "chromaRatio": 0.188
+  },
+  {
+   "name": "檀褐",
+   "category": "穀雨",
+   "hex": "#945635",
+   "rgb": [
+    148,
+    86,
+    53
+   ],
+   "family": "棕褐色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.5177,
+    "C": 0.0948,
+    "h": 47.8
+   },
+   "chromaRatio": 0.669
+  },
+  {
+   "name": "射干",
+   "category": "白露",
+   "hex": "#7C623F",
+   "rgb": [
+    124,
+    98,
+    63
+   ],
+   "family": "棕褐色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.5136,
+    "C": 0.0604,
+    "h": 74.0
+   },
+   "chromaRatio": 0.554
+  },
+  {
+   "name": "緼韍",
+   "category": "雨水",
+   "hex": "#984F31",
+   "rgb": [
+    152,
+    79,
+    49
+   ],
+   "family": "棕褐色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.5103,
+    "C": 0.1068,
+    "h": 42.3
+   },
+   "chromaRatio": 0.697
+  },
+  {
+   "name": "駝褐",
+   "category": "小雪",
+   "hex": "#7C5B3E",
+   "rgb": [
+    124,
+    91,
+    62
+   ],
+   "family": "棕褐色系",
+   "lightness": "深色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.4984,
+    "C": 0.0608,
+    "h": 62.0
+   },
+   "chromaRatio": 0.529
+  },
+  {
+   "name": "冥色",
+   "category": "大寒",
+   "hex": "#665F4D",
+   "rgb": [
+    102,
+    95,
+    77
+   ],
+   "family": "棕褐色系",
+   "lightness": "深色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.4868,
+    "C": 0.029,
+    "h": 89.3
+   },
+   "chromaRatio": 0.291
+  },
+  {
+   "name": "伽羅",
+   "category": "立冬",
+   "hex": "#6D5C3D",
+   "rgb": [
+    109,
+    92,
+    61
+   ],
+   "family": "棕褐色系",
+   "lightness": "深色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.4835,
+    "C": 0.0507,
+    "h": 82.0
+   },
+   "chromaRatio": 0.508
+  },
+  {
+   "name": "緅絺",
+   "category": "穀雨",
+   "hex": "#804C2E",
+   "rgb": [
+    128,
+    76,
+    46
+   ],
+   "family": "棕褐色系",
+   "lightness": "深色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.4705,
+    "C": 0.083,
+    "h": 49.7
+   },
+   "chromaRatio": 0.663
+  },
+  {
+   "name": "栗殼",
+   "category": "立春",
+   "hex": "#775039",
+   "rgb": [
+    119,
+    80,
+    57
+   ],
+   "family": "棕褐色系",
+   "lightness": "深色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.4685,
+    "C": 0.0632,
+    "h": 51.2
+   },
+   "chromaRatio": 0.518
+  },
+  {
+   "name": "朱石栗",
+   "category": "小寒",
+   "hex": "#81492C",
+   "rgb": [
+    129,
+    73,
+    44
+   ],
+   "family": "棕褐色系",
+   "lightness": "深色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.466,
+    "C": 0.0873,
+    "h": 47.1
+   },
+   "chromaRatio": 0.678
+  },
+  {
+   "name": "紫甌",
+   "category": "雨水",
+   "hex": "#7C461E",
+   "rgb": [
+    124,
+    70,
+    30
+   ],
+   "family": "棕褐色系",
+   "lightness": "深色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.4514,
+    "C": 0.0913,
+    "h": 54.2
+   },
+   "chromaRatio": 0.808
+  },
+  {
+   "name": "麝香褐",
+   "category": "大寒",
+   "hex": "#694B3C",
+   "rgb": [
+    105,
+    75,
+    60
+   ],
+   "family": "棕褐色系",
+   "lightness": "深色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.4413,
+    "C": 0.0474,
+    "h": 47.6
+   },
+   "chromaRatio": 0.392
+  },
+  {
+   "name": "素綦",
+   "category": "立秋",
+   "hex": "#595333",
+   "rgb": [
+    89,
+    83,
+    51
+   ],
+   "family": "棕褐色系",
+   "lightness": "深色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.4395,
+    "C": 0.0487,
+    "h": 98.9
+   },
+   "chromaRatio": 0.534
+  },
+  {
+   "name": "油葫蘆",
+   "category": "白露",
+   "hex": "#644D31",
+   "rgb": [
+    100,
+    77,
+    49
+   ],
+   "family": "棕褐色系",
+   "lightness": "深色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.4373,
+    "C": 0.0521,
+    "h": 71.3
+   },
+   "chromaRatio": 0.553
+  },
+  {
+   "name": "蒼艾",
+   "category": "立冬",
+   "hex": "#5A4B3B",
+   "rgb": [
+    90,
+    75,
+    59
+   ],
+   "family": "棕褐色系",
+   "lightness": "深色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.4235,
+    "C": 0.0324,
+    "h": 68.6
+   },
+   "chromaRatio": 0.349
+  },
+  {
+   "name": "龍戰",
+   "category": "立春",
+   "hex": "#5f4321",
+   "rgb": [
+    95,
+    67,
+    33
+   ],
+   "family": "棕褐色系",
+   "lightness": "深色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.4062,
+    "C": 0.0624,
+    "h": 69.8
+   },
+   "chromaRatio": 0.707
+  },
+  {
+   "name": "棗褐",
+   "category": "小寒",
+   "hex": "#68361A",
+   "rgb": [
+    104,
+    54,
+    26
+   ],
+   "family": "棕褐色系",
+   "lightness": "深色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.3912,
+    "C": 0.082,
+    "h": 48.0
+   },
+   "chromaRatio": 0.767
+  },
+  {
+   "name": "目童子",
+   "category": "穀雨",
+   "hex": "#5B3222",
+   "rgb": [
+    91,
+    50,
+    34
+   ],
+   "family": "棕褐色系",
+   "lightness": "深色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.3652,
+    "C": 0.0651,
+    "h": 41.8
+   },
+   "chromaRatio": 0.587
+  },
+  {
+   "name": "半見",
+   "category": "立冬",
+   "hex": "#FFFBC7",
+   "rgb": [
+    255,
+    251,
+    199
+   ],
+   "family": "米杏色系",
+   "lightness": "浅色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.9785,
+    "C": 0.0668,
+    "h": 103.9
+   },
+   "chromaRatio": 0.999
+  },
+  {
+   "name": "凝脂",
+   "category": "白露",
+   "hex": "#F5F2E9",
+   "rgb": [
+    245,
+    242,
+    233
+   ],
+   "family": "米杏色系",
+   "lightness": "浅色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.961,
+    "C": 0.0124,
+    "h": 91.5
+   },
+   "chromaRatio": 0.234
+  },
+  {
+   "name": "女貞黃",
+   "category": "立冬",
+   "hex": "#F7EEAD",
+   "rgb": [
+    247,
+    238,
+    173
+   ],
+   "family": "米杏色系",
+   "lightness": "浅色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.941,
+    "C": 0.0833,
+    "h": 101.2
+   },
+   "chromaRatio": 0.61
+  },
+  {
+   "name": "米湯嬌",
+   "category": "大雪",
+   "hex": "#EEEAD9",
+   "rgb": [
+    238,
+    234,
+    217
+   ],
+   "family": "米杏色系",
+   "lightness": "浅色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.9356,
+    "C": 0.023,
+    "h": 96.0
+   },
+   "chromaRatio": 0.213
+  },
+  {
+   "name": "斷腸",
+   "category": "小寒",
+   "hex": "#ECEBC2",
+   "rgb": [
+    236,
+    235,
+    194
+   ],
+   "family": "米杏色系",
+   "lightness": "浅色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.9305,
+    "C": 0.0536,
+    "h": 106.2
+   },
+   "chromaRatio": 0.27
+  },
+  {
+   "name": "玉色",
+   "category": "白露",
+   "hex": "#EAE4D1",
+   "rgb": [
+    234,
+    228,
+    209
+   ],
+   "family": "米杏色系",
+   "lightness": "浅色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.9185,
+    "C": 0.0261,
+    "h": 92.4
+   },
+   "chromaRatio": 0.227
+  },
+  {
+   "name": "骨縹",
+   "category": "大寒",
+   "hex": "#EBE3C7",
+   "rgb": [
+    235,
+    227,
+    199
+   ],
+   "family": "米杏色系",
+   "lightness": "浅色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.9148,
+    "C": 0.038,
+    "h": 93.8
+   },
+   "chromaRatio": 0.297
+  },
+  {
+   "name": "鶯兒",
+   "category": "冬至",
+   "hex": "#EBE1A9",
+   "rgb": [
+    235,
+    225,
+    169
+   ],
+   "family": "米杏色系",
+   "lightness": "浅色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.9043,
+    "C": 0.0732,
+    "h": 99.2
+   },
+   "chromaRatio": 0.39
+  },
+  {
+   "name": "韶粉",
+   "category": "春分",
+   "hex": "#E0E0D0",
+   "rgb": [
+    224,
+    224,
+    208
+   ],
+   "family": "米杏色系",
+   "lightness": "浅色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.9023,
+    "C": 0.0214,
+    "h": 106.8
+   },
+   "chromaRatio": 0.111
+  },
+  {
+   "name": "絹紈",
+   "category": "立冬",
+   "hex": "#ECE093",
+   "rgb": [
+    236,
+    224,
+    147
+   ],
+   "family": "米杏色系",
+   "lightness": "浅色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.8991,
+    "C": 0.0979,
+    "h": 100.5
+   },
+   "chromaRatio": 0.523
+  },
+  {
+   "name": "天球",
+   "category": "小暑",
+   "hex": "#E0DFC6",
+   "rgb": [
+    224,
+    223,
+    198
+   ],
+   "family": "米杏色系",
+   "lightness": "浅色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.8978,
+    "C": 0.0333,
+    "h": 105.2
+   },
+   "chromaRatio": 0.175
+  },
+  {
+   "name": "弗肯紅",
+   "category": "寒露",
+   "hex": "#ECD9C7",
+   "rgb": [
+    236,
+    217,
+    199
+   ],
+   "family": "米杏色系",
+   "lightness": "浅色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.896,
+    "C": 0.0321,
+    "h": 65.9
+   },
+   "chromaRatio": 0.436
+  },
+  {
+   "name": "桑蕾",
+   "category": "處暑",
+   "hex": "#EAD89A",
+   "rgb": [
+    234,
+    216,
+    154
+   ],
+   "family": "米杏色系",
+   "lightness": "浅色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.8825,
+    "C": 0.082,
+    "h": 93.8
+   },
+   "chromaRatio": 0.464
+  },
+  {
+   "name": "蜜合",
+   "category": "霜降",
+   "hex": "#DFD7C2",
+   "rgb": [
+    223,
+    215,
+    194
+   ],
+   "family": "米杏色系",
+   "lightness": "浅色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.8799,
+    "C": 0.0295,
+    "h": 89.6
+   },
+   "chromaRatio": 0.194
+  },
+  {
+   "name": "黃潤",
+   "category": "白露",
+   "hex": "#DFD6B8",
+   "rgb": [
+    223,
+    214,
+    184
+   ],
+   "family": "米杏色系",
+   "lightness": "浅色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.8755,
+    "C": 0.0412,
+    "h": 93.2
+   },
+   "chromaRatio": 0.23
+  },
+  {
+   "name": "十樣錦",
+   "category": "霜降",
+   "hex": "#F8C6B5",
+   "rgb": [
+    248,
+    198,
+    181
+   ],
+   "family": "米杏色系",
+   "lightness": "浅色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.8662,
+    "C": 0.062,
+    "h": 39.6
+   },
+   "chromaRatio": 0.83
+  },
+  {
+   "name": "明月璫",
+   "category": "夏至",
+   "hex": "#D4D3CA",
+   "rgb": [
+    212,
+    211,
+    202
+   ],
+   "family": "米杏色系",
+   "lightness": "浅色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.8651,
+    "C": 0.0123,
+    "h": 101.5
+   },
+   "chromaRatio": 0.068
+  },
+  {
+   "name": "香皮",
+   "category": "立秋",
+   "hex": "#D8D1C5",
+   "rgb": [
+    216,
+    209,
+    197
+   ],
+   "family": "米杏色系",
+   "lightness": "浅色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.863,
+    "C": 0.0181,
+    "h": 81.3
+   },
+   "chromaRatio": 0.133
+  },
+  {
+   "name": "田赤",
+   "category": "小寒",
+   "hex": "#E1D384",
+   "rgb": [
+    225,
+    211,
+    132
+   ],
+   "family": "米杏色系",
+   "lightness": "浅色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.8608,
+    "C": 0.1008,
+    "h": 99.4
+   },
+   "chromaRatio": 0.564
+  },
+  {
+   "name": "地籟",
+   "category": "立夏",
+   "hex": "#DFCEB4",
+   "rgb": [
+    223,
+    206,
+    180
+   ],
+   "family": "米杏色系",
+   "lightness": "浅色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.8585,
+    "C": 0.0398,
+    "h": 78.5
+   },
+   "chromaRatio": 0.303
+  },
+  {
+   "name": "禹餘糧",
+   "category": "冬至",
+   "hex": "#E1D279",
+   "rgb": [
+    225,
+    210,
+    121
+   ],
+   "family": "米杏色系",
+   "lightness": "浅色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.8571,
+    "C": 0.1116,
+    "h": 99.9
+   },
+   "chromaRatio": 0.626
+  },
+  {
+   "name": "筠霧",
+   "category": "芒種",
+   "hex": "#D5D1AE",
+   "rgb": [
+    213,
+    209,
+    174
+   ],
+   "family": "米杏色系",
+   "lightness": "浅色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.8548,
+    "C": 0.047,
+    "h": 101.9
+   },
+   "chromaRatio": 0.262
+  },
+  {
+   "name": "藕絲秋半",
+   "category": "白露",
+   "hex": "#D3CBC5",
+   "rgb": [
+    211,
+    203,
+    197
+   ],
+   "family": "米杏色系",
+   "lightness": "浅色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.8469,
+    "C": 0.0122,
+    "h": 59.5
+   },
+   "chromaRatio": 0.118
+  },
+  {
+   "name": "扶光",
+   "category": "夏至",
+   "hex": "#F0C2A2",
+   "rgb": [
+    240,
+    194,
+    162
+   ],
+   "family": "米杏色系",
+   "lightness": "浅色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.8466,
+    "C": 0.0681,
+    "h": 56.5
+   },
+   "chromaRatio": 0.685
+  },
+  {
+   "name": "肉紅",
+   "category": "大寒",
+   "hex": "#DDC5B8",
+   "rgb": [
+    221,
+    197,
+    184
+   ],
+   "family": "米杏色系",
+   "lightness": "浅色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.84,
+    "C": 0.0326,
+    "h": 50.3
+   },
+   "chromaRatio": 0.332
+  },
+  {
+   "name": "仙米",
+   "category": "小滿",
+   "hex": "#D4C9AA",
+   "rgb": [
+    212,
+    201,
+    170
+   ],
+   "family": "米杏色系",
+   "lightness": "浅色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.8368,
+    "C": 0.0434,
+    "h": 90.8
+   },
+   "chromaRatio": 0.254
+  },
+  {
+   "name": "縑緗",
+   "category": "白露",
+   "hex": "#D5C8A0",
+   "rgb": [
+    213,
+    200,
+    160
+   ],
+   "family": "米杏色系",
+   "lightness": "浅色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.8334,
+    "C": 0.0552,
+    "h": 92.2
+   },
+   "chromaRatio": 0.324
+  },
+  {
+   "name": "赤璋",
+   "category": "寒露",
+   "hex": "#E1C199",
+   "rgb": [
+    225,
+    193,
+    153
+   ],
+   "family": "米杏色系",
+   "lightness": "浅色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.8286,
+    "C": 0.0644,
+    "h": 72.9
+   },
+   "chromaRatio": 0.449
+  },
+  {
+   "name": "霜地",
+   "category": "春分",
+   "hex": "#C7C6B6",
+   "rgb": [
+    199,
+    198,
+    182
+   ],
+   "family": "米杏色系",
+   "lightness": "浅色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.8229,
+    "C": 0.0219,
+    "h": 104.0
+   },
+   "chromaRatio": 0.126
+  },
+  {
+   "name": "假山南",
+   "category": "霜降",
+   "hex": "#D4C1A6",
+   "rgb": [
+    212,
+    193,
+    166
+   ],
+   "family": "米杏色系",
+   "lightness": "浅色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.8197,
+    "C": 0.0425,
+    "h": 76.7
+   },
+   "chromaRatio": 0.259
+  },
+  {
+   "name": "青白玉",
+   "category": "大寒",
+   "hex": "#CAC5A0",
+   "rgb": [
+    202,
+    197,
+    160
+   ],
+   "family": "米杏色系",
+   "lightness": "浅色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.8179,
+    "C": 0.0501,
+    "h": 101.0
+   },
+   "chromaRatio": 0.293
+  },
+  {
+   "name": "如夢令",
+   "category": "芒種",
+   "hex": "#DDBB99",
+   "rgb": [
+    221,
+    187,
+    153
+   ],
+   "family": "米杏色系",
+   "lightness": "浅色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.8131,
+    "C": 0.0602,
+    "h": 66.8
+   },
+   "chromaRatio": 0.422
+  },
+  {
+   "name": "騂剛",
+   "category": "小暑",
+   "hex": "#F5B087",
+   "rgb": [
+    245,
+    176,
+    135
+   ],
+   "family": "米杏色系",
+   "lightness": "浅色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.8129,
+    "C": 0.0978,
+    "h": 51.6
+   },
+   "chromaRatio": 0.822
+  },
+  {
+   "name": "石蜜",
+   "category": "大暑",
+   "hex": "#D4BF89",
+   "rgb": [
+    212,
+    191,
+    137
+   ],
+   "family": "米杏色系",
+   "lightness": "浅色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.8095,
+    "C": 0.0747,
+    "h": 89.2
+   },
+   "chromaRatio": 0.451
+  },
+  {
+   "name": "雲母",
+   "category": "立秋",
+   "hex": "#C6BEB1",
+   "rgb": [
+    198,
+    190,
+    177
+   ],
+   "family": "米杏色系",
+   "lightness": "浅色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.8044,
+    "C": 0.0201,
+    "h": 80.1
+   },
+   "chromaRatio": 0.121
+  },
+  {
+   "name": "九斤黃",
+   "category": "寒露",
+   "hex": "#DDB078",
+   "rgb": [
+    221,
+    176,
+    120
+   ],
+   "family": "米杏色系",
+   "lightness": "浅色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.7853,
+    "C": 0.0896,
+    "h": 72.0
+   },
+   "chromaRatio": 0.533
+  },
+  {
+   "name": "行香子",
+   "category": "小暑",
+   "hex": "#BFB99C",
+   "rgb": [
+    191,
+    185,
+    156
+   ],
+   "family": "米杏色系",
+   "lightness": "浅色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.783,
+    "C": 0.0402,
+    "h": 97.6
+   },
+   "chromaRatio": 0.249
+  },
+  {
+   "name": "黃粱",
+   "category": "白露",
+   "hex": "#C4B798",
+   "rgb": [
+    196,
+    183,
+    152
+   ],
+   "family": "米杏色系",
+   "lightness": "浅色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.7822,
+    "C": 0.0448,
+    "h": 88.0
+   },
+   "chromaRatio": 0.28
+  },
+  {
+   "name": "夏籥",
+   "category": "春分",
+   "hex": "#D2AF9D",
+   "rgb": [
+    210,
+    175,
+    157
+   ],
+   "family": "米杏色系",
+   "lightness": "浅色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.7801,
+    "C": 0.048,
+    "h": 48.8
+   },
+   "chromaRatio": 0.342
+  },
+  {
+   "name": "黃封",
+   "category": "小寒",
+   "hex": "#CAB272",
+   "rgb": [
+    202,
+    178,
+    114
+   ],
+   "family": "米杏色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.7698,
+    "C": 0.0873,
+    "h": 89.7
+   },
+   "chromaRatio": 0.555
+  },
+  {
+   "name": "檀唇",
+   "category": "霜降",
+   "hex": "#DA9E8C",
+   "rgb": [
+    218,
+    158,
+    140
+   ],
+   "family": "米杏色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.752,
+    "C": 0.0766,
+    "h": 37.4
+   },
+   "chromaRatio": 0.502
+  },
+  {
+   "name": "珠子褐",
+   "category": "大寒",
+   "hex": "#BEA89D",
+   "rgb": [
+    190,
+    168,
+    157
+   ],
+   "family": "米杏色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.7476,
+    "C": 0.0301,
+    "h": 48.3
+   },
+   "chromaRatio": 0.182
+  },
+  {
+   "name": "欒華",
+   "category": "秋分",
+   "hex": "#C0AD5E",
+   "rgb": [
+    192,
+    173,
+    94
+   ],
+   "family": "米杏色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.7471,
+    "C": 0.1022,
+    "h": 96.2
+   },
+   "chromaRatio": 0.664
+  },
+  {
+   "name": "芸黃",
+   "category": "芒種",
+   "hex": "#D2A36C",
+   "rgb": [
+    210,
+    163,
+    108
+   ],
+   "family": "米杏色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.7467,
+    "C": 0.0908,
+    "h": 70.1
+   },
+   "chromaRatio": 0.561
+  },
+  {
+   "name": "紫花布",
+   "category": "霜降",
+   "hex": "#BEA78B",
+   "rgb": [
+    190,
+    167,
+    139
+   ],
+   "family": "米杏色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.7411,
+    "C": 0.0471,
+    "h": 72.5
+   },
+   "chromaRatio": 0.297
+  },
+  {
+   "name": "椒房",
+   "category": "夏至",
+   "hex": "#DB9C5E",
+   "rgb": [
+    219,
+    156,
+    94
+   ],
+   "family": "米杏色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.7409,
+    "C": 0.109,
+    "h": 64.3
+   },
+   "chromaRatio": 0.652
+  },
+  {
+   "name": "大塊",
+   "category": "立夏",
+   "hex": "#BFA782",
+   "rgb": [
+    191,
+    167,
+    130
+   ],
+   "family": "米杏色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.74,
+    "C": 0.0577,
+    "h": 78.4
+   },
+   "chromaRatio": 0.374
+  },
+  {
+   "name": "沙餳",
+   "category": "大暑",
+   "hex": "#BFA670",
+   "rgb": [
+    191,
+    166,
+    112
+   ],
+   "family": "米杏色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.7345,
+    "C": 0.0772,
+    "h": 85.7
+   },
+   "chromaRatio": 0.513
+  },
+  {
+   "name": "繭色",
+   "category": "寒露",
+   "hex": "#C6A268",
+   "rgb": [
+    198,
+    162,
+    104
+   ],
+   "family": "米杏色系",
+   "lightness": "中色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.7318,
+    "C": 0.0867,
+    "h": 78.7
+   },
+   "chromaRatio": 0.57
+  },
+  {
+   "name": "琬琰",
+   "category": "芒種",
+   "hex": "#A9A886",
+   "rgb": [
+    169,
+    168,
+    134
+   ],
+   "family": "米杏色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.7234,
+    "C": 0.0471,
+    "h": 106.1
+   },
+   "chromaRatio": 0.305
+  },
+  {
+   "name": "酇白",
+   "category": "小寒",
+   "hex": "#F6F9E4",
+   "rgb": [
+    246,
+    249,
+    228
+   ],
+   "family": "白灰色系",
+   "lightness": "浅色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.9743,
+    "C": 0.0277,
+    "h": 113.5
+   },
+   "chromaRatio": 0.264
+  },
+  {
+   "name": "山礬",
+   "category": "夏至",
+   "hex": "#F5F3F2",
+   "rgb": [
+    245,
+    243,
+    242
+   ],
+   "family": "白灰色系",
+   "lightness": "浅色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.9654,
+    "C": 0.0025,
+    "h": 48.7
+   },
+   "chromaRatio": 0.134
+  },
+  {
+   "name": "縞羽",
+   "category": "立秋",
+   "hex": "#EFEFEF",
+   "rgb": [
+    239,
+    239,
+    239
+   ],
+   "family": "白灰色系",
+   "lightness": "浅色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.9521,
+    "C": 0.0,
+    "h": 89.9
+   },
+   "chromaRatio": 0.0
+  },
+  {
+   "name": "淺雲",
+   "category": "秋分",
+   "hex": "#EAEEF1",
+   "rgb": [
+    234,
+    238,
+    241
+   ],
+   "family": "白灰色系",
+   "lightness": "浅色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.9469,
+    "C": 0.0059,
+    "h": 239.8
+   },
+   "chromaRatio": 0.208
+  },
+  {
+   "name": "皦玉",
+   "category": "春分",
+   "hex": "#EBEEE8",
+   "rgb": [
+    235,
+    238,
+    232
+   ],
+   "family": "白灰色系",
+   "lightness": "浅色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.9452,
+    "C": 0.0086,
+    "h": 128.6
+   },
+   "chromaRatio": 0.062
+  },
+  {
+   "name": "吉量",
+   "category": "春分",
+   "hex": "#EBEDDF",
+   "rgb": [
+    235,
+    237,
+    223
+   ],
+   "family": "白灰色系",
+   "lightness": "浅色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.9408,
+    "C": 0.0187,
+    "h": 113.4
+   },
+   "chromaRatio": 0.089
+  },
+  {
+   "name": "玉頩",
+   "category": "夏至",
+   "hex": "#EAE5E3",
+   "rgb": [
+    234,
+    229,
+    227
+   ],
+   "family": "白灰色系",
+   "lightness": "浅色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.9252,
+    "C": 0.0061,
+    "h": 43.3
+   },
+   "chromaRatio": 0.15
+  },
+  {
+   "name": "二目魚",
+   "category": "夏至",
+   "hex": "#DFE0D9",
+   "rgb": [
+    223,
+    224,
+    217
+   ],
+   "family": "白灰色系",
+   "lightness": "浅色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.904,
+    "C": 0.0095,
+    "h": 113.2
+   },
+   "chromaRatio": 0.047
+  },
+  {
+   "name": "素採",
+   "category": "秋分",
+   "hex": "#D4DDE1",
+   "rgb": [
+    212,
+    221,
+    225
+   ],
+   "family": "白灰色系",
+   "lightness": "浅色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.8918,
+    "C": 0.0112,
+    "h": 226.0
+   },
+   "chromaRatio": 0.16
+  },
+  {
+   "name": "香爐紫煙",
+   "category": "清明",
+   "hex": "#D3CCD6",
+   "rgb": [
+    211,
+    204,
+    214
+   ],
+   "family": "白灰色系",
+   "lightness": "浅色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.8538,
+    "C": 0.0156,
+    "h": 316.0
+   },
+   "chromaRatio": 0.145
+  },
+  {
+   "name": "影青",
+   "category": "秋分",
+   "hex": "#BDCBD2",
+   "rgb": [
+    189,
+    203,
+    210
+   ],
+   "family": "白灰色系",
+   "lightness": "浅色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.8335,
+    "C": 0.0182,
+    "h": 229.0
+   },
+   "chromaRatio": 0.173
+  },
+  {
+   "name": "溶溶月",
+   "category": "立夏",
+   "hex": "#BEC2BC",
+   "rgb": [
+    190,
+    194,
+    188
+   ],
+   "family": "白灰色系",
+   "lightness": "浅色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.8092,
+    "C": 0.0094,
+    "h": 134.9
+   },
+   "chromaRatio": 0.04
+  },
+  {
+   "name": "逍遙遊",
+   "category": "秋分",
+   "hex": "#B2BFC3",
+   "rgb": [
+    178,
+    191,
+    195
+   ],
+   "family": "白灰色系",
+   "lightness": "浅色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.7958,
+    "C": 0.0155,
+    "h": 218.1
+   },
+   "chromaRatio": 0.108
+  },
+  {
+   "name": "月魄",
+   "category": "夏至",
+   "hex": "#B2B6B6",
+   "rgb": [
+    178,
+    182,
+    182
+   ],
+   "family": "白灰色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.7731,
+    "C": 0.0045,
+    "h": 197.1
+   },
+   "chromaRatio": 0.034
+  },
+  {
+   "name": "甘石",
+   "category": "霜降",
+   "hex": "#BDB2B2",
+   "rgb": [
+    189,
+    178,
+    178
+   ],
+   "family": "白灰色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.7727,
+    "C": 0.0126,
+    "h": 17.4
+   },
+   "chromaRatio": 0.094
+  },
+  {
+   "name": "葭灰",
+   "category": "雨水",
+   "hex": "#BEB1AA",
+   "rgb": [
+    190,
+    177,
+    170
+   ],
+   "family": "白灰色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.7693,
+    "C": 0.0179,
+    "h": 50.4
+   },
+   "chromaRatio": 0.119
+  },
+  {
+   "name": "不皂",
+   "category": "夏至",
+   "hex": "#A7AAA1",
+   "rgb": [
+    167,
+    170,
+    161
+   ],
+   "family": "白灰色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.733,
+    "C": 0.0132,
+    "h": 121.8
+   },
+   "chromaRatio": 0.074
+  },
+  {
+   "name": "紹衣",
+   "category": "立夏",
+   "hex": "#A8A19C",
+   "rgb": [
+    168,
+    161,
+    156
+   ],
+   "family": "白灰色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.7134,
+    "C": 0.0109,
+    "h": 58.2
+   },
+   "chromaRatio": 0.064
+  },
+  {
+   "name": "蕉月",
+   "category": "白露",
+   "hex": "#86908A",
+   "rgb": [
+    134,
+    144,
+    138
+   ],
+   "family": "白灰色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.6433,
+    "C": 0.0146,
+    "h": 159.7
+   },
+   "chromaRatio": 0.1
+  },
+  {
+   "name": "雷雨垂",
+   "category": "夏至",
+   "hex": "#7A7B78",
+   "rgb": [
+    122,
+    123,
+    120
+   ],
+   "family": "白灰色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.5811,
+    "C": 0.0047,
+    "h": 121.6
+   },
+   "chromaRatio": 0.033
+  },
+  {
+   "name": "石涅",
+   "category": "夏至",
+   "hex": "#686A67",
+   "rgb": [
+    104,
+    106,
+    103
+   ],
+   "family": "白灰色系",
+   "lightness": "中色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.5216,
+    "C": 0.0052,
+    "h": 134.9
+   },
+   "chromaRatio": 0.034
+  },
+  {
+   "name": "煙墨",
+   "category": "霜降",
+   "hex": "#5C4F55",
+   "rgb": [
+    92,
+    79,
+    85
+   ],
+   "family": "白灰色系",
+   "lightness": "深色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.4426,
+    "C": 0.0196,
+    "h": 348.3
+   },
+   "chromaRatio": 0.105
+  },
+  {
+   "name": "墨黲",
+   "category": "冬至",
+   "hex": "#585248",
+   "rgb": [
+    88,
+    82,
+    72
+   ],
+   "family": "白灰色系",
+   "lightness": "深色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.4412,
+    "C": 0.0178,
+    "h": 80.6
+   },
+   "chromaRatio": 0.194
+  },
+  {
+   "name": "驖驪",
+   "category": "冬至",
+   "hex": "#46433B",
+   "rgb": [
+    70,
+    67,
+    59
+   ],
+   "family": "白灰色系",
+   "lightness": "深色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.3832,
+    "C": 0.0138,
+    "h": 89.9
+   },
+   "chromaRatio": 0.176
+  },
+  {
+   "name": "璆琳",
+   "category": "芒種",
+   "hex": "#343041",
+   "rgb": [
+    52,
+    48,
+    65
+   ],
+   "family": "黑墨色系",
+   "lightness": "深色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.3206,
+    "C": 0.0303,
+    "h": 295.4
+   },
+   "chromaRatio": 0.172
+  },
+  {
+   "name": "螺子黛",
+   "category": "穀雨",
+   "hex": "#13393E",
+   "rgb": [
+    19,
+    57,
+    62
+   ],
+   "family": "黑墨色系",
+   "lightness": "深色",
+   "saturation": "鲜艳",
+   "oklch": {
+    "L": 0.3199,
+    "C": 0.0433,
+    "h": 207.1
+   },
+   "chromaRatio": 0.786
+  },
+  {
+   "name": "京元",
+   "category": "冬至",
+   "hex": "#31322C",
+   "rgb": [
+    49,
+    50,
+    44
+   ],
+   "family": "黑墨色系",
+   "lightness": "深色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.314,
+    "C": 0.0105,
+    "h": 114.7
+   },
+   "chromaRatio": 0.148
+  },
+  {
+   "name": "紺蝶",
+   "category": "驚蟄",
+   "hex": "#2C2F3B",
+   "rgb": [
+    44,
+    47,
+    59
+   ],
+   "family": "黑墨色系",
+   "lightness": "深色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.3073,
+    "C": 0.022,
+    "h": 274.0
+   },
+   "chromaRatio": 0.113
+  },
+  {
+   "name": "青驪",
+   "category": "立春",
+   "hex": "#422517",
+   "rgb": [
+    66,
+    37,
+    23
+   ],
+   "family": "黑墨色系",
+   "lightness": "深色",
+   "saturation": "标准",
+   "oklch": {
+    "L": 0.2986,
+    "C": 0.0501,
+    "h": 46.0
+   },
+   "chromaRatio": 0.594
+  },
+  {
+   "name": "瑾瑜",
+   "category": "芒種",
+   "hex": "#1E2732",
+   "rgb": [
+    30,
+    39,
+    50
+   ],
+   "family": "黑墨色系",
+   "lightness": "深色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.2692,
+    "C": 0.0242,
+    "h": 253.7
+   },
+   "chromaRatio": 0.284
+  },
+  {
+   "name": "獺見",
+   "category": "小寒",
+   "hex": "#151D29",
+   "rgb": [
+    21,
+    29,
+    41
+   ],
+   "family": "黑墨色系",
+   "lightness": "深色",
+   "saturation": "柔和",
+   "oklch": {
+    "L": 0.2288,
+    "C": 0.0263,
+    "h": 258.3
+   },
+   "chromaRatio": 0.302
+  }
+ ]
+}
